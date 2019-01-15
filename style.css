@@ -1533,5 +1533,5 @@ footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer
 }
 
 #search-2{
-    display:none;
+    display:block;
 }
