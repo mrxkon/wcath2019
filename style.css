@@ -1532,3 +1532,6 @@ footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer
     width: 16px;
 }
 
+#search-2{
+    display:none;
+}
