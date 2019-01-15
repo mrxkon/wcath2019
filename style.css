@@ -794,7 +794,7 @@ article.wcb_session,
   transition: all 0.3s ease;
 }
 .entry-title + .entry-meta a:hover {
-	color:#337dba
+	color:#000;
 }
 .entry-content > p:first-of-type {
   font-family: 'Open Sans', sans-serif!important;
