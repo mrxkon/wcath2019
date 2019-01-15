@@ -1531,3 +1531,7 @@ footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer
     vertical-align: text-top;
     width: 16px;
 }
+
+li.current_page_item{
+    display:none;
+}
