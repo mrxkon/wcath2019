@@ -1532,6 +1532,6 @@ footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer
     width: 16px;
 }
 
-li.current_page_item{
+.main-navigation li.current_page_item{
     display:none;
 }
