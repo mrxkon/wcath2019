@@ -786,8 +786,8 @@ article.wcb_session,
 	font-size:1rem
 }
 .entry-title + .entry-meta a {
-	color:#1e88e5;
-	text-decoration:none;
+	color:#fff;
+	text-decoration:underline;
 		 -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
