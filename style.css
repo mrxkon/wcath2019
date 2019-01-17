@@ -755,7 +755,6 @@ article.wcb_session,
 	margin-bottom:2.53125rem;
 	padding:2.53125rem;
 	padding-bottom:123px;
-	border-top:5px solid #fff;
 }
 
 .entry-header {
@@ -786,8 +785,8 @@ article.wcb_session,
 	font-size:1rem
 }
 .entry-title + .entry-meta a {
-	color:#fff;
-	text-decoration:underline;
+	color:#1e88e5;
+	text-decoration:none;
 		 -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
