@@ -41,9 +41,9 @@ position:absolute;
 
 /* BUTTONS */
 button, html input[type="button"], input[type="reset"], input[type="submit"]{
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
 }
 /* NAVIGATION MENU*/
 .menu-primary-nav-container ul li{
