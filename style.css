@@ -415,9 +415,6 @@ input[type='text'],input[type='email'],textarea {
 }
 input[type='submit'] {
 	background:#1e88e5;
--webkit-box-shadow: -5px 5px 0px 0px rgba(13,72,161,1)!important;
--moz-box-shadow: -5px 5px 0px 0px rgba(13,72,161,1)!important;
-box-shadow: -5px 5px 0px 0px rgba(13,72,161,1)!important;
 	color:#fff;
 	cursor:pointer;
 	font-size:1.125rem;
