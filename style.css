@@ -1013,9 +1013,6 @@ label{display: block;}
   transition: all 0.3s ease;
 	width:100%;
 	text-align: left;
-	-webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
 font-size:14px;
 font-weight: 300;
 }
