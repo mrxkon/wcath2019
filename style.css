@@ -43,9 +43,9 @@ position:absolute;
 input[type="text"], textarea,
 #primary-sidebar input[type='text'],#primary-sidebar input[type='email'],
 button, html input[type="button"], input[type="reset"], input[type="submit"]{
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
+-webkit-border-radius: 10px!important;
+-moz-border-radius: 10px!important;
+border-radius: 10px!important;
 }
 /* NAVIGATION MENU*/
 .menu-primary-nav-container ul li{
