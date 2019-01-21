@@ -1075,10 +1075,15 @@ textarea:focus,
 	margin-bottom: 0.9375rem;
 }
 
+#recent-comments-2,
+#recent-posts-2,
 #search-2{
 	position: relative;
 	padding-bottom:0.9375rem;
 }
+
+#recent-comments-2::after,
+#recent-posts-2::after,
 #search-2::after{
 	display: block;
 	content: '';
