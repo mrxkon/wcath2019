@@ -1047,6 +1047,23 @@ background-color: #fff;
     padding: 1.5em;
 }
 
+#searchform{
+	margin-bottom: 0.938em;
+}
+
+.widget.widget_search::after{
+	position: relative;
+}
+
+.widget.widget_search::after::after {
+    display: block;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #CCCAC4;
+	position: absolute;
+}
+
 .widget_wpcom_social_media_icons_widget,
 .jetpack_subscription_widget,
 .widget_recent_entries,
@@ -1055,7 +1072,6 @@ background-color: #fff;
 .widget_twitter_timeline
 {
 
-   
     margin: -1.1em 0 2.5em;
 
 }
@@ -1507,6 +1523,3 @@ footer.entry-meta .sep {
     background: #e9e9e9;
 }
 
-#search-2{
-    display:block;
-}
