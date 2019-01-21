@@ -25,6 +25,11 @@
 	bottom:0;
 }
 
+#before-content-widgets {
+    bottom: 245px;
+    position: relative;
+}
+
 #custom_html-2 h1.widget-title{
 	display:none;
 }
