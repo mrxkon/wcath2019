@@ -62,6 +62,7 @@ border-radius: 10px;
     position: relative;
 }
 
+#custom_html-3 h1.widget-title,
 #custom_html-2 h1.widget-title{
 	display:none;
 }
