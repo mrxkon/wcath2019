@@ -1068,7 +1068,7 @@ textarea:focus,
 
 #secondary-sidebar{
     margin: -1rem 0 2.5rem;
-    padding: 1.5em;
+    padding: 1rem;
 }
 
 #searchform{
@@ -1080,8 +1080,9 @@ textarea:focus,
 #recent-posts-2,
 #search-2{
 	position: relative;
-	padding-bottom:0.9375rem;
+	padding-top:2rem;
 }
+
 #categories-2::after,
 #recent-comments-2::after,
 #recent-posts-2::after,
@@ -1092,6 +1093,7 @@ textarea:focus,
 	width: 100%;
 	background-color: #CCCAC4;
 position:absolute;
+top:0;
 }
 
 
