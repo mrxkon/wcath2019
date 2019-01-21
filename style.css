@@ -735,7 +735,6 @@ width:auto!important;
 	margin:0 auto 1rem;
 	padding:0 1rem;
 	width:50%;
-	background-color: #F3F7FA;
 	border:none!important;
 }
 @media screen and (min-width: 576px) {
@@ -765,9 +764,11 @@ width:auto!important;
 	-webkit-transform:scale(1.05);
 	transform:scale(1.05)
 }
+/*
 #after-header-widgets .textwidget p:last-child {
 	margin-bottom:0
 }
+
 #after-header-widgets .widget:nth-child(1) img {
 	border-top:10px solid #2196f3
 }
@@ -780,6 +781,7 @@ width:auto!important;
 #after-header-widgets .widget:nth-child(4) img {
 	border-top:10px solid #0d47a1
 }
+*/
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
