@@ -1411,9 +1411,8 @@ footer.entry-meta .edit-link:before {
 	background-position:0 -48px
 }
 footer.entry-meta {
-	border-bottom:1px solid #4191ce;
-	border-top:1px solid #4191ce;
-	color:#aaa;
+	border:1px solid #707070;
+	color:#333;
 	line-height:1.5;
 	margin:2.25rem 0 0;
 	padding:.5rem 0;
