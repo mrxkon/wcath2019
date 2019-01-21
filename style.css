@@ -462,6 +462,12 @@ input[type='text'],input[type='email'],textarea {
 	font-family:inherit;
 	font-size:inherit;
 }
+a.btn.btn-info{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+a.btn.btn-info,
 input[type='submit'] {
 	background:#1e88e5;
 	color:#fff;
