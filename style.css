@@ -1074,13 +1074,18 @@ background-color: #fff;
 }
 
 #searchform{
-	margin-bottom: 0.938em;
+	margin-bottom: 0.9375rem;
 }
 
+.widget.widget_categories,
+.widget.widget_recent_entries
 .widget.widget_search{
 	position: relative;
+	padding-bottom:0.9375rem
 }
 
+.widget.widget_categories::after,
+.widget.widget_recent_entries::after,
 .widget.widget_search::after {
     display: block;
     content: '';
