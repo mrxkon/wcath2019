@@ -1051,7 +1051,7 @@ background-color: #fff;
 	margin-bottom: 0.938em;
 }
 
-.widget.widget_search::after{
+.widget.widget_search{
 	position: relative;
 }
 
@@ -1437,7 +1437,7 @@ footer.entry-meta {
 	color:#333;
 	line-height:1.5;
 	margin:2.25rem 0 0;
-	padding:.9rem 0;
+	padding:1rem 0;
 	font-size:.9rem
 }
 footer.entry-meta .sep {
