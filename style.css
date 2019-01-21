@@ -37,6 +37,11 @@
 	margin: 7.8125rem auto;
 }
 
+#text-4 h1.widget-title {
+    font-size:1.9375rem;
+	font-weight: 700;
+}
+
 
 .byline{
 	display: none;
