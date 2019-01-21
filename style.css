@@ -57,10 +57,6 @@ border-radius: 10px;
 
 }
 
-#before-content-widgets {
-    bottom: 245px;
-    position: relative;
-}
 
 #custom_html-3 h1.widget-title,
 #custom_html-2 h1.widget-title{
@@ -716,9 +712,12 @@ width:auto!important;
 	color:#5091FF !important
 }
 #after-header-widgets {
-	margin:1.6875rem auto;
-	max-width:62rem
+	max-width:62rem;
+	margin: 0 auto;
+	bottom: 245px;
+	position: relative;
 }
+
 #after-header-widgets h1 {
 	display:none
 }
