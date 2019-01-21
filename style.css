@@ -1428,6 +1428,10 @@ footer.entry-meta .sep {
 .site-footer {
 	background:#fff
 }
+.site-footer .widget-area{
+	display: block;
+}
+
 #footer-widgets {
 	display:block;
 	margin:0 auto;
@@ -1439,7 +1443,7 @@ footer.entry-meta .sep {
 	content:'';
 	display:table
 }
-#footer-widget-1,#footer-widget-2,#footer-widget-3 {
+#footer-widget-1, #footer-widget-2, #footer-widget-3 {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
