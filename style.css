@@ -34,12 +34,16 @@
 
 #text-4{
 	max-width: 62rem;
-	margin: 7.8125rem auto;
+	margin: 14.8125rem auto;
+	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 #text-4 h1.widget-title {
     font-size:1.9375rem;
 	font-weight: 700;
+	flex: 1 0 50%;
 }
 
 
@@ -1503,9 +1507,8 @@ footer.entry-meta .sep {
 	display:block;
 margin: 0 auto;
 max-width: 100%;
-padding: 1.125rem;
 background-image: url("https://2019.athens.wordcamp.org/files/2019/01/register_wcathens.png");
-height: 542px;
+height: 540px;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
 -moz-background-size: cover;
