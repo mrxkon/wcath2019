@@ -1527,7 +1527,7 @@ background-size: cover;
 	content:'';
 	display:table
 }
-#footer-widget-1, #footer-widget-2, #footer-widget-3 {
+#footer-widget-1 {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
@@ -1535,7 +1535,8 @@ background-size: cover;
 }
 @media screen and (min-width: 576px) {
 	#footer-widget-1 {
-		width:100%
+		width:100%;
+		margin-top:7.8125rem;
 	}
 }
 @media print,screen and (min-width: 4768px) {
