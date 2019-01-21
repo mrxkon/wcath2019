@@ -2,6 +2,26 @@
 
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 
+/**
+* post
+**/
+
+.post{
+	position: relative;
+}
+
+.post::after{
+	display: block;
+	position: absolute;
+	content: "";
+	background-image: url('https://2019.athens.wordcamp.org/files/2019/01/line.png');
+	width: 80px;
+	height: 8px;
+	margin: 0 auto;
+}
+
+
+
 .byline{
 	display: none;
 }
@@ -911,6 +931,9 @@ article.wcb_session,
 
 .entry-content a  {
 	font-weight: bold;
+}
+.more-link{
+	text-decoration: underline;
 }
 .entry-content .contact-submit,.comment-content .contact-submit {
 	margin:1rem 0;
