@@ -540,9 +540,14 @@ input[type='submit']:hover {
 }
 
 .home .site-header hgroup {
-	position:relative;
 	top:50%;
 	transform:translateY(-50%);
+}
+
+.home .site-header hgroup,
+.page .site-header hgroup,
+.single .site-header hgroup{
+	position: relative;
 	z-index: 1;
 }
 
