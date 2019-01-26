@@ -1362,7 +1362,7 @@ body div.sharedaddy h3.sd-title:before {
 
 .site-title {
 	/*background:url('https://2017.athens.wordcamp.org/files/2017/07/logowcath2017.png') no-repeat;*/
-	background:url('https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_logo.png');
+	background:url('https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_logo.png') no-repeat;
 	width:271px;
 	height:500px;
 	margin:0 auto;
