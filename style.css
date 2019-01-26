@@ -557,7 +557,7 @@ input[type='submit']:hover {
 
 .page .site-header,
 .single .site-header {
-    background: #4191ce url('http://2016.athens.wordcamp.org/files/2016/07/headerimage.jpg') 50% 80% no-repeat;
+    background: #4191ce url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 80% no-repeat;
   -webkit-background-size: cover!important;
   -moz-background-size: cover!important;
   -o-background-size: cover!important;
@@ -1197,7 +1197,9 @@ top:0;
 	color:#fff;
 	display:block;
 	padding-top:12rem;
-	background-size:160px
+	background-size:160px;
+	width:190px;
+	margin:0 auto;
 }
 @media screen and (max-width: 1023px) {
 	.site-info .site-info-generator {
