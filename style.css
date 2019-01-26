@@ -530,7 +530,7 @@ input[type='submit']:hover {
 	/*background-attachment: fixed;*/
 }
 
-.site-header::after{
+.site-header::before{
 	content: "";
 	width: 100%;
 	z-index: 1;
@@ -1361,7 +1361,6 @@ body div.sharedaddy h3.sd-title:before {
 }
 
 .site-title {
-	/*background:url('https://2017.athens.wordcamp.org/files/2017/07/logowcath2017.png') no-repeat;*/
 	background:url('https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_logo.png') no-repeat;
 	width:271px;
 	height:500px;
