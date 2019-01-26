@@ -65,7 +65,7 @@ border-radius: 10px;
 
 
 .byline{
-	display: block;
+	display: inline;
 }
 /* caption */
 .wp-caption .wp-caption-text{
