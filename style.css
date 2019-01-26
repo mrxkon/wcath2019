@@ -1532,11 +1532,9 @@ footer.entry-meta .edit-link:before {
 	background-position:0 -48px
 }
 footer.entry-meta {
-	border:1px solid #707070;
 	color:#333;
 	line-height:1.5;
 	margin:2.25rem 0 0;
-	padding:1rem;
 	font-size:.9rem
 }
 footer.entry-meta .sep {
