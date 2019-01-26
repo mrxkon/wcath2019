@@ -1515,9 +1515,8 @@ footer.entry-meta .cat-links:before,footer.entry-meta .tag-links:before,footer.e
 	line-height:1;
 	margin-right:.14815rem;
 	overflow:hidden;
-	height:16px;
 	vertical-align:text-top;
-	width:16px
+
 }
 footer.entry-meta .cat-links:before {
 	background-position:0 0
@@ -1537,9 +1536,7 @@ footer.entry-meta {
 	margin:2.25rem 0 0;
 	font-size:.9rem
 }
-footer.entry-meta .sep {
-	margin:0 .33333rem
-}
+
 .site-footer {
 	background:#fff
 }
