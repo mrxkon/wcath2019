@@ -724,7 +724,7 @@ width:auto!important;
 #after-header-widgets {
 	max-width:62rem;
 	margin: 0 auto;
-	bottom: 245px;
+	bottom: 45px;
 	position: relative;
 	z-index:2;
 }
