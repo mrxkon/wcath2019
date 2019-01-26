@@ -529,6 +529,19 @@ input[type='submit']:hover {
 	text-align:center;
 	/*background-attachment: fixed;*/
 }
+
+.site-header::after{
+	content: "";
+	width: 100%;
+	z-index: 1;
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(30,136,229, 0.7);
+}
+
 .home .site-header hgroup {
 	position:relative;
 	top:50%;
@@ -719,6 +732,7 @@ width:auto!important;
 	margin: 0 auto;
 	bottom: 245px;
 	position: relative;
+	z-index:2;
 }
 
 #after-header-widgets h1 {
