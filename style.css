@@ -545,7 +545,8 @@ input[type='submit']:hover {
 .home .site-header hgroup {
 	position:relative;
 	top:50%;
-	transform:translateY(-50%)
+	transform:translateY(-50%);
+	z-index: 1;
 }
 
 .site-header hgroup {
