@@ -1194,7 +1194,7 @@ border-right: 4px solid transparent;
 		line-height:1.125;
 		margin-bottom:2.25rem
 	}
-	
+
 	.comments-area .comment-author {
 		line-height:1.5
 	}
@@ -1365,7 +1365,7 @@ flex-wrap: wrap;
 	background:url('https://2017.athens.wordcamp.org/files/2017/05/logoWordCampAthens2017-top.png') 50% 0 no-repeat;
 	color:rgba(255, 255, 255, 1);;
 	display:block;
-	padding-top:12rem;
+	padding-top:9rem;
 	background-size:160px;
 	width:190px;
 	margin:0 auto;
