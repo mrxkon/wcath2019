@@ -1315,7 +1315,7 @@ p#subscribe-email{
 }
 	
 #footer-widgets {
-	display:block;
+display:block;
 margin: 0 auto;
 max-width: 100%;
 background-image: url("https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_register_section@2x.png");
@@ -1342,7 +1342,7 @@ flex-wrap: wrap;
 }
 
 #text-4 h1.widget-title {
-    font-size:1.9375rem;
+    font-size:2em;
 	font-weight: 700;
 	flex: 1 0 50%;
 }
