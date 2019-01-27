@@ -456,7 +456,7 @@ html {
 body {
 	background:#fff;
 	color:#333;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size:1rem;
 }
 img {
@@ -884,7 +884,7 @@ article.wcb_session,
 	color:#000;
 }
 .entry-content > p:first-of-type {
-  font-family: 'Open Sans', sans-serif!important;
+	font-family: 'Ubuntu', sans-serif!important;
 	margin-bottom:1.125rem
 }
 .entry-content blockquote {
