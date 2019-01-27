@@ -456,7 +456,7 @@ html {
 body {
 	background:#fff;
 	color:#333;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:1rem;
 }
 img {
@@ -796,7 +796,7 @@ width:auto!important;
 }
 */
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
 }
 
@@ -884,7 +884,7 @@ article.wcb_session,
 	color:#000;
 }
 .entry-content > p:first-of-type {
-	font-family: 'Ubuntu', sans-serif!important;
+	font-family: 'Roboto', sans-serif!important;
 	margin-bottom:1.125rem
 }
 .entry-content blockquote {
@@ -1172,7 +1172,7 @@ top:0;
 }
 
 .widget .widget-title {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size:1.125rem;
 	font-weight:700;
 	margin:0 0 0.625rem;
