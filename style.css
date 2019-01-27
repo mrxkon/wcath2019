@@ -862,7 +862,7 @@ article.wcb_session,
 }
 
 .entry-title a {
-	color:rgba(66, 159, 253, 1);
+	color:rgba(14, 99, 216, 1);
 	text-decoration:none;
 	 -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -872,7 +872,7 @@ article.wcb_session,
 .widget li a:hover {color:#0d47a1;}
 
 .entry-title a:hover {
-	color:rgba(14, 99, 216, 1);
+	color:rgba(19, 51, 166, 1);
 	text-decoration: underline
 }
 
