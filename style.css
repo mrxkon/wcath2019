@@ -1261,22 +1261,37 @@ border-right: 4px solid transparent;
 	display:table
 }
 .post-navigation .nav-previous a,.post-navigation .nav-next a {
-	color:rgba(68, 142, 246, 1);
+	color:rgba(14, 99, 216, 1)
 }
 .post-navigation .nav-previous a:hover,.post-navigation .nav-next a:hover {
-	color:rgba(14, 99, 216, 1);
+	color:rgba(19, 51, 166, 1);
 }
 	
-.post-navigation .nav-previous .meta-nav,.post-navigation .nav-next .meta-nav {
-	display:none
+
+.post-navigation .nav-next::after {
+    margin-left: .5rem;
+    display: inline-block;
+	content: "\2192";
+	color:rgba(14, 99, 216, 1)
 }
 
+.post-navigation .nav-previous::before {
+    margin-right: .5rem;
+    display: inline-block;
+	content: "\2190";
+	color:rgba(14, 99, 216, 1)
+}
+
+
+
 .post-navigation .nav-previous {
-	float:left
+	float:left;
+	text-align:left;
 }
 
 .post-navigation .nav-next {
-	float:right
+	float:right;
+	text-align:right;
 }
 
 
