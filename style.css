@@ -1614,9 +1614,11 @@ font-size: 100% !important;
 
 .wcorg-organizer {
 	padding:0.83rem 0 0.83rem 0;
-	border-bottom:1px solid rgba(14, 99, 216, 1);
+	border-bottom:1px solid rgba(14,99,216,0.3);
 }
-
+.wcorg-organizer h2{
+	margin-bottom: 1.38rem;
+}
 .wcorg-organizer-description {
 	font-size:1em
 }
@@ -1629,7 +1631,9 @@ font-size: 100% !important;
 .wcorg-organizer .avatar {
 	float:left;
 	margin:0 1rem 1rem 0;
-	border-radius:50%
+	border-radius:50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 }
 .wcorg-organizer div.sharedaddy {
 	display:none
