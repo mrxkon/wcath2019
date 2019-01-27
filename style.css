@@ -1304,6 +1304,42 @@ border-right: 4px solid transparent;
 p#subscribe-email{
 	margin:0;
 }
+/*===========================
+	Pre Site Footer Widget
+==============================*/
+
+#footer-widgets {
+	display:block;
+margin: 0 auto;
+max-width: 100%;
+background-image: url("https://2019.athens.wordcamp.org/files/2019/01/register_wcathens.png");
+height:440px;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#footer-widgets:after {
+	clear:both;
+	content:'';
+	display:table
+}
+
+#text-4{
+	max-width: 62rem;
+	margin: 11.8125rem auto;
+	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#text-4 h1.widget-title {
+    font-size:1.9375rem;
+	font-weight: 700;
+	flex: 1 0 50%;
+}
 
 /*===========================
 	Footer
