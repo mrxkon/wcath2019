@@ -521,7 +521,7 @@ body {
 	background:rgba(255, 255, 255, 1);
 	color:rgba(0,0,0,.8);
 	font-family: 'Roboto', sans-serif;
-	font-size:1rem;
+	font-size:1em;
 	line-height:1.42857;
 }
 
@@ -1276,12 +1276,12 @@ position:absolute;
 }
 
 .widget{
-	padding-bottom:30px;
+	padding-bottom:1.875rem;
 }
 
 .widget .widget-title {
 	font-family: 'Ubuntu', sans-serif;
-	font-size:1.125rem;
+	font-size:1.125em;
 	font-weight:700;
 	margin:0 0 0.625rem;
 	padding:0 0 0.625rem;
@@ -1289,6 +1289,13 @@ position:absolute;
 	color:rgba(0,0,0,.8);
 }
 
+/*
+	Subcribe Form
+=========================== */
+
+p.subscribe-email{
+	margin:0;
+}
 
 /*===========================
 	Footer
