@@ -1154,22 +1154,19 @@ border-right: 4px solid transparent;
 
 .entry-content blockquote,
 .comment-content blockquote {
-	border-bottom:1px solid #1aaacd;
-	border-top:1px solid #1aaacd;
-	font-family: 'Roboto', sans-serif;
-	font-style:italic;
+	border-left:2px solid rgba(204, 202, 196, 1);
+	font-family: 'Ubuntu', sans-serif;
 	padding:1rem;
 }
+
 .entry-content blockquote p:last-child,.comment-content blockquote p:last-child {
 	margin-bottom:0
 }
 
 .entry-content blockquote {
-	font-size:1.6875rem;
 	margin:2.25rem 1rem
 }
 .comment-content blockquote {
-	font-size:1.5rem;
 	margin:1.5rem .75rem
 }
 /* Comments
