@@ -1141,6 +1141,10 @@ textarea:focus,
 	margin-bottom: 0.9375rem;
 }
 
+.widget{
+	padding
+}
+
 #blog_subscription-2,
 #categories-2,
 #recent-comments-2,
@@ -1163,17 +1167,8 @@ position:absolute;
 top:0;
 }
 
-
-.widget_wpcom_social_media_icons_widget,
-.jetpack_subscription_widget,
-.widget_recent_entries,
-.widget_search,
-.widget_google_translate_widget,
-.widget_twitter_timeline
-{
-
-    margin: -1rem 0 2.5rem;
-
+.widget{
+	padding-bottom:30px;
 }
 
 .widget .widget-title {
