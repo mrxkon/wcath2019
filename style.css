@@ -877,6 +877,7 @@ article.wcb_session,
 }
 
 .entry-title + .entry-meta {
+	font-family: 'Ubuntu', sans-serif;
 	color:rgba(0,0,0,.8);
 	font-size:1rem
 }
