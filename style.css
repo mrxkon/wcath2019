@@ -646,7 +646,7 @@ input[type='submit']:hover {
 	z-index: 1;
 }
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-top-color:#fff!important;
+	border-top-color:rgba(255, 255, 255, 1)!important;
 	z-index: 1;
 }
 .main-navigation ul li:hover ul {
@@ -654,7 +654,7 @@ input[type='submit']:hover {
 
 }
 .main-navigation ul ul {
-	background-color:#166796;
+	background-color:rgba(68, 142, 246, 1);
 	display:none;
 	padding:0;
 	position:absolute;
@@ -667,7 +667,7 @@ input[type='submit']:hover {
 }
 
 .main-navigation ul ul li a {
-	color:#fff!important;
+	color:rgba(255, 255, 255, 1)!important;
 	padding-left:1rem;
 	padding-right: 1rem;
 }
@@ -676,7 +676,7 @@ input[type='submit']:hover {
 .main-navigation ul ul a {
 	padding:.75rem 0;
 	text-align:left;
-	color:#fff!important;
+	color:rgba(255, 255, 255, 1)!important;
 width:auto!important;
 }
 
