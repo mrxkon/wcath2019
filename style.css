@@ -1612,8 +1612,30 @@ font-size: 100% !important;
 }
 
 
-/* 	Ticker
+/* 	Organizers
 =================================== */
+
+.wcorg-organizer {
+	border-bottom:1px solid rgba(14, 99, 216, 1)
+}
+
+.wcorg-organizer-description {
+	font-size:.8em
+}
+
+.wcorg-organizer .wcorg-organizer-description:after {
+	clear:both;
+	content:'';
+	display:table
+}
+.wcorg-organizer .avatar {
+	float:left;
+	margin:0 1rem 1rem 0;
+	border-radius:50%
+}
+.wcorg-organizer div.sharedaddy {
+	display:none
+}
 
 /* Footer
 =================================== */
