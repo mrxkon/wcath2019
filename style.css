@@ -881,15 +881,17 @@ article.wcb_session,
 	font-size:1rem
 }
 .entry-title + .entry-meta a {
-	color:#1e88e5;
-	text-decoration:none;
+	color:rgba(14, 99, 216, 1);
+	text-decoration:underline;
 		 -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .entry-title + .entry-meta a:hover {
-	color:#000;
+	color:rgba(19, 51, 166, 1);
+	text-decoration:underline;
+
 }
 .entry-content > p:first-of-type {
 	font-family: 'Roboto', sans-serif!important;
