@@ -3,6 +3,15 @@
 /************************************** ADD HERE ANY ADDITIONAL CSS ************************************/
 
 /**
+* Comments
+**/
+
+span.sep:first-child{
+	display: none;
+}
+
+
+/**
 * post
 **/
 
@@ -865,7 +874,7 @@ article.wcb_session,
 }
 
 .entry-title + .entry-meta {
-	color:#131313;
+	color:rgba(0,0,0,.8);
 	font-size:1rem
 }
 .entry-title + .entry-meta a {
@@ -1525,7 +1534,6 @@ footer.entry-meta .edit-link:before {
 	background-position:0 -48px
 }
 footer.entry-meta {
-	color:#333;
 	line-height:1.5;
 	margin:2.25rem 0 0;
 	font-size:.9rem
