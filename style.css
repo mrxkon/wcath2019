@@ -1182,8 +1182,8 @@ top:0;
 	font-weight:700;
 	margin:0 0 0.625rem;
 	padding:0 0 0.625rem;
-	text-transform:uppercase
-	color:#166796;
+	text-transform:uppercase;
+	color:rgba(0,0,0,.8);
 }
 .widget li {
 	border-bottom:1px dotted #1aaacd;
