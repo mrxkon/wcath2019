@@ -1352,12 +1352,12 @@ flex-wrap: wrap;
 ==============================*/
 .site-info {
 	background:#5091FF;
-	padding:3.79688rem 1rem;
+	padding:4rem;
 	text-align:center
 }
 .site-info .site-info-generator {
 	background:url('https://2017.athens.wordcamp.org/files/2017/05/logoWordCampAthens2017-top.png') 50% 0 no-repeat;
-	color:#fff;
+	color:rgba(255, 255, 255, 1);;
 	display:block;
 	padding-top:12rem;
 	background-size:160px;
@@ -1365,14 +1365,8 @@ flex-wrap: wrap;
 	margin:0 auto;
 }
 
-@media screen and (max-width: 1023px) {
-	.site-info .site-info-generator {
-		padding-top:9.375rem
-	}
-}
-.site-info .site-info-generator:hover {
-	color:#fff
-}
+
+
 .site-info .site-info-network {
 	background:url('https://2016.athens.wordcamp.org/files/2016/07/header-ribbon.png') 50% 0 no-repeat;
 	-moz-box-sizing:border-box;
@@ -1387,7 +1381,8 @@ flex-wrap: wrap;
 	position:absolute;
 	text-decoration:none;
 	top:0;
-	width:95px
+	width:95px;
+	z-index:900;
 }
 
 /*===========================
@@ -1683,8 +1678,10 @@ font-size: 100% !important;
 
 /* Footer
 =================================== */
-@media screen and (min-width: 1024px) {
+
+
+@media screen and (max-width: 1023px) {
 	.site-info .site-info-generator {
-		padding-top:6.5rem
+		padding-top:9.375rem;
 	}
 }
