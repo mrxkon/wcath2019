@@ -400,9 +400,7 @@ article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
 	display:block
 }
-body {
-	line-height:1
-}
+
 ol,ul {
 	list-style:none
 }
@@ -655,6 +653,7 @@ body {
 	color:rgba(0,0,0,.8);
 	font-family: 'Roboto', sans-serif;
 	font-size:1rem;
+	line-height:1.42857;
 }
 img {
 	height:auto;
