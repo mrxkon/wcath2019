@@ -259,10 +259,6 @@ font-size: 100% !important;
 	margin-top:1.25rem;
 }
 
-h1.entry-title {
-	color:#166796;
-}
-
 .main-navigation li {
 	float:none;
 	position:relative
@@ -854,7 +850,7 @@ article.wcb_session,
 }
 
 .entry-title a {
-	color:inherit;
+	color:rgba(66, 159, 253, 1);
 	text-decoration:none;
 	 -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -862,9 +858,12 @@ article.wcb_session,
   transition: all 0.3s ease;
 }
 .widget li a:hover {color:#0d47a1;}
+
 .entry-title a:hover {
-	color:#1e88e5;
+	color:rgba(14, 99, 216, 1);
+	text-decoration: underline
 }
+
 .entry-title + .entry-meta {
 	color:#131313;
 	font-size:1rem
