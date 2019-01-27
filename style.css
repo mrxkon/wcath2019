@@ -634,6 +634,23 @@ input[type='submit']:hover {
 	color:#fff;
 }
 
+input[type='text'],input[type='email'] {
+	background:rgba(255,255,255,0.9);
+	border:1px solid rgba(215, 215, 215, 1);
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:.9rem;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+	width:100%;
+	text-align: left;
+font-size:1em;
+font-weight: 300;
+}
+
 /* General 
 =================================== */
 #custom_html-1 h1.widget-title,
