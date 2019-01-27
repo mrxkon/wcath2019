@@ -660,6 +660,9 @@ input[type='submit']:hover {
 	position:absolute;
 	top:4.5em;
 	width:auto;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 }
 .main-navigation ul ul li {
 	display:block;
@@ -1118,7 +1121,9 @@ font-weight: 300;
 }
 textarea:focus,
 #primary-sidebar input[type='text']:focus,#primary-sidebar input[type='email']:focus {
-	   box-shadow: 0 0 6px rgba(0, 200, 222, 0.25);
+	   -webkit-box-shadow:0 0 6px rgba(0, 200, 222, 0.25);
+	   -moz-box-shadow:    0 0 6px rgba(0, 200, 222, 0.25);
+	   box-shadow:        0 0 6px rgba(0, 200, 222, 0.25);
     background-color: #fafafa;
 }
 #primary-sidebar input[type='submit'] {
