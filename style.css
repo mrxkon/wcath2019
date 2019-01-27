@@ -996,7 +996,7 @@ border-right: 4px solid transparent;
 }
 
 .site-header hgroup {
-	padding:1% 0;
+	padding:4% 0;
 }
 
 .site-header img {
@@ -1373,7 +1373,6 @@ flex-wrap: wrap;
 
 
 .site-info .site-info-network {
-	background:url('https://2016.athens.wordcamp.org/files/2016/07/header-ribbon.png') 50% 0 no-repeat;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
