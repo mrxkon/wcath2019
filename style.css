@@ -1292,7 +1292,9 @@ position:absolute;
 /*
 	Subcribe Form
 =========================== */
-
+#subscribe-email input{
+	width:100%!important;
+}
 p#subscribe-email{
 	margin:0;
 }
