@@ -605,7 +605,7 @@ a {
 	outline: none;
   }
 
-a.btn.primary-button,
+a.btn.primary-btn,
 input[type='submit'] {
 	background-color:rgba(68, 142, 246, 1);
 	color:rgba(255, 255, 255, 1);
