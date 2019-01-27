@@ -1616,11 +1616,12 @@ font-size: 100% !important;
 =================================== */
 
 .wcorg-organizer {
-	border-bottom:1px solid rgba(14, 99, 216, 1)
+	padding:0.83rem 0 0.83rem 0;
+	border-bottom:1px solid rgba(14, 99, 216, 1);
 }
 
 .wcorg-organizer-description {
-	font-size:.8em
+	font-size:1em
 }
 
 .wcorg-organizer .wcorg-organizer-description:after {
