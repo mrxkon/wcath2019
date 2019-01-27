@@ -1351,7 +1351,7 @@ flex-wrap: wrap;
 	Footer
 ==============================*/
 .site-info {
-	background:#5091FF;
+	background-color:rgba(19, 51, 166, 1);
 	padding:4rem;
 	text-align:center
 }
@@ -1364,7 +1364,6 @@ flex-wrap: wrap;
 	width:190px;
 	margin:0 auto;
 }
-
 
 
 .site-info .site-info-network {
