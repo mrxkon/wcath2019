@@ -995,7 +995,9 @@ input[type='text'],input[type='email'] {
 	background-attachment: fixed;
 }
 .site-title { 
+	/*
 	background:url('https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_logo.png') no-repeat;
+	*/
 	width:271px;
 	height:500px;
 	margin:0 auto;
