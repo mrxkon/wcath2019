@@ -944,7 +944,7 @@ border-right: 4px solid transparent;
 }
 
 .site-header {
-	background:rgba(66, 159, 253, 1) url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 100% no-repeat;
+	background:url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 100% no-repeat;
 	background-size:cover !important;
 	-webkit-background-size: cover!important;
   -moz-background-size: cover!important;
@@ -980,7 +980,7 @@ border-right: 4px solid transparent;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba(30,136,229, 0.7);
+	background: rgba(66, 159, 253, 0.7);
 }
 
 .home .site-header hgroup {
@@ -1068,7 +1068,7 @@ border-right: 4px solid transparent;
 
 .page .site-header,
 .single .site-header {
-    background: rgba(66, 159, 253, 1) url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 80% no-repeat;
+    background: url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 80% no-repeat;
   -webkit-background-size: cover!important;
   -moz-background-size: cover!important;
   -o-background-size: cover!important;
