@@ -1068,15 +1068,11 @@ input[type='text'],input[type='email'] {
 	box-sizing:border-box;
 	float:left;
 	margin:0 auto 1rem;
-	padding:0 1rem;
+	padding:0 0.7rem;
 	width:50%;
 	border:none!important;
 }
 
-#after-header-widgets .textwidget h4 {
-	font-size:1.5rem;
-	margin:0 0 .75rem;
-}
 
 #after-header-widgets .textwidget img {
 	-moz-box-shadow:0 0 8px rgba(126,99,88,0.3);
