@@ -1085,20 +1085,20 @@ input[type='text'],input[type='email'] {
 	cursor:pointer;
 	display:block;
 	margin:0 auto;
-	-moz-transition: all 0.3s ease;
-  	-o-transition: all 0.3s ease;
-  	-webkit-transition: all 0.3s ease;
-  	transition: all 0.3s ease;
-  	-webkit-border-radius: 3px;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
 
 #after-header-widgets .textwidget img:hover {
-	-moz-transform:scale(1);
-	-ms-transform:scale(1);
-	-webkit-transform:scale(1);
-	transform:scale(1);
+	-moz-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	transform:scale(1.05);
 }
 
 /* 4.3 Post
@@ -1747,6 +1747,7 @@ li.share-linkedin a.sd-button:hover > span {
 		width:25%;
 	}
 }
+
 
 /* 12.4 Table
 ======================================*/
