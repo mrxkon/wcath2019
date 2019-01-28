@@ -1,16 +1,52 @@
 
-/* -----------------------
+/*/*======================================
     Table Of Contents
-----------------------------
+/*======================================
 
 01. Normalize csss
 02. Base CSS
 	2.1 Typography
-	2.2	Basic System
+	2.2 General
+	2.3 Elements Styling
+		2.3.1 Buttons
+		2.3.2 Embed YouTube
 03. Navigation Menu
-03. Header
-04. Blog Post
-	4.1 Single Post
+	3.1 Desktop Nav Menu
+	3.2 Mobile Nav Menu
+04. Index
+	4.1 Big Hero Image
+	4.2 Widgets Section
+	4.3 Post
+	4.4 Title
+05. Single Post
+	5.1 Entry Title
+	5.2 Captions
+	5.3 Blockquote
+06. Commments
+	6.1 Comments Section
+	6.2 Post Navigation On Comments
+07. Sidebar
+	7.1 Widgets On Sidebar
+	7.2 Subacribe Form
+08. Prefooter Widget
+	8.1 Background Register Section
+	8.2 Title of Register Section
+09. Footer
+	9.1 Site Info
+10. Social Media Links
+	10.1 Sharedaddy - Jetback
+11. Pages
+	11.1 Speakers
+	11.2 Tickets
+	11.3 Budget
+	11.4 Organizers
+12. Responsive
+	12.1 Primary and Sidebar
+	12.2 Home Title
+	12.3 Widget Section
+	12.4 Table
+	12.5 Footer
+	12.6 Fluid Typography
 
 */
 
@@ -32,7 +68,6 @@
   
   /* Document
 	 ========================================================================== */
-  
   /**
    * 1. Correct the line height in all browsers.
    * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -511,12 +546,24 @@
 	display: none;
   }
   
+  * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-/* -----------------------------------------
-	02. Base scss
------------------------------------------ */
-/* Typography
-=================================== */
+/* /*======================================
+	02. Base CSS
+------------------------------------------- */
+	/* 2.1 Typography
+=========================================== */
 body {
 	background:rgba(255, 255, 255, 1);
 	color:rgba(0,0,0,.8);
@@ -587,75 +634,8 @@ img {
 	height: auto;
 }
   
-a {
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	outline: none;
-	color:rgba(68, 142, 246, 1);
-	text-decoration: none;
-  }
-  a:hover, a:focus {
-	color:rgba(14, 99, 216, 1);
-	outline: none;
-	text-decoration: underline;
-  }
-  a:active {
-	outline: none;
-  }
-
-a.btn.primary-btn,
-input[type='submit'] {
-	background-color:rgba(68, 142, 246, 1);
-	color:rgba(255, 255, 255, 1);
-	cursor:pointer;
-	font-size:1.125rem;
-	font-weight:700;
-	padding:1.1875rem;
-	text-transform:uppercase;
- -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-	width:100%;
-	margin:0.875rem 0 0.9375rem;
-	line-height:1.4;
-	text-shadow:none;
-	border:0 none;
-	box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
-	-webkit-box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
-	-moz-box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
-	-webkit-border-radius: 3px!important;
--moz-border-radius: 3px!important;
-border-radius: 3px!important;
-}
-a.btn.primary-btn:hover,
-input[type='submit']:hover {
-	background-color:rgba(14, 99, 216, 1);
-	color:rgba(255,255,255,1);
-	text-decoration:none;
-}
-
-input[type='text'],input[type='email'] {
-	background:rgba(255,255,255,0.9);
-	border:1px solid rgba(215, 215, 215, 1);
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
-	padding:.9rem;
-	 -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-	width:100%;
-	text-align: left;
-font-size:1em;
-font-weight: 300;
-}
-
-/* General 
-=================================== */
+/* 2.2 General
+======================================*/
 #custom_html-1 h1.widget-title,
 #custom_html-2 h1.widget-title,
 #custom_html-3 h1.widget-title,
@@ -664,45 +644,31 @@ span.sep:first-child{
 	display: none;
 }
 
-  /* Elements Styling
-=================================== */
-
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-  }
-  
-*:before,
-*:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+a {
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	outline: none;
+	color:rgba(68, 142, 246, 1);
+	text-decoration: none;
 }
 
-/* Embed Youtube */
-.embed-youtube  {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+a:hover, a:focus {
+	color:rgba(14, 99, 216, 1);
+	outline: none;
+	text-decoration: underline;
 }
 
-.embed-youtube iframe,
-.embed-youtube object,
-.embed-youtube embed{
-position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+a:active {
+	outline: none;
 }
 
-  #main {
+#main {
 	max-width:73.125rem;
 	margin:7.75rem auto 7.75rem auto;
 }
+
 #secondary {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -722,12 +688,84 @@ position:absolute;
 	padding:0 1rem
 }
 
+  /* 2.3 Elements Styling
+/*======================================*/
+  /* 2.3.1 Buttons
+========================================*/
+a.btn.primary-btn,
+input[type='submit'] {
+	background-color:rgba(68, 142, 246, 1);
+	color:rgba(255, 255, 255, 1);
+	cursor:pointer;
+	font-size:1.125rem;
+	font-weight:700;
+	padding:1.1875rem;
+	text-transform:uppercase;
+	 -moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+	width:100%;
+	margin:0.875rem 0 0.9375rem;
+	line-height:1.4;
+	text-shadow:none;
+	border:0 none;
+	box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
+	-webkit-box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
+	-moz-box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
+	-webkit-border-radius: 3px!important;
+	-moz-border-radius: 3px!important;
+	border-radius: 3px!important;
+}
+a.btn.primary-btn:hover,
+input[type='submit']:hover {
+	background-color:rgba(14, 99, 216, 1);
+	color:rgba(255,255,255,1);
+	text-decoration:none;
+}
 
-/* -----------------------------------------
+input[type='text'],input[type='email'] {
+	background:rgba(255,255,255,0.9);
+	border:1px solid rgba(215, 215, 215, 1);
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:.9rem;
+	 -moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+	width:100%;
+	text-align: left;
+	font-size:1em;
+	font-weight: 300;
+}
+
+  /* 2.3.2 Embed YouTube
+======================================*/
+.embed-youtube  {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*======================================
 	03. Navigation Menu
------------------------------------------ */
-/* Desktop Layout
-=================================== */
+----------------------------------------*/
+	/* 3.1 Desktop Nav Menu
+========================================*/
 .main-navigation {
 	background:rgba(255, 255, 255, 1);
 	top:0;
@@ -770,12 +808,15 @@ position:absolute;
 .main-navigation ul > li:first-child a:before {
 	content:''
 }
+
 .main-navigation ul > li.menu-item-has-children {
 	position:relative;
 }
+
 .main-navigation ul > li.menu-item-has-children > a {
 	padding-right:1rem
 }
+
 .main-navigation ul > li.menu-item-has-children > a:after {
  	content: '';
 	position:absolute;
@@ -785,8 +826,8 @@ position:absolute;
 	width:0;
 	z-index: 1;
 	border-top: 4px solid rgba(19, 51, 166, 1);
-border-left: 4px solid transparent;
-border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
 }
 
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
@@ -858,20 +899,18 @@ border-right: 4px solid transparent;
 	color:rgba(66, 159, 253, 1)!important;
 }
 
-
 .main-navigation ul > li a:hover {
 	color:rgba(255, 255, 255, 1)!important;
 	background-color: rgba(68, 142, 246, 1);
 }
 
-/* Sub Menu*/
 .sub-menu .menu-item{
 	border-top: 1px solid rgba(255,255,255,1);
     width:250px;
 }
 
-/* Small navigation*/
-
+/* 3.2 Mobile Nav Menu
+======================================*/
 .main-small-navigation {
 	width:100%;
 	top:0;
@@ -918,6 +957,7 @@ border-right: 4px solid transparent;
 	text-align:left;
 	padding:0 1rem 1rem
 }
+
 .main-small-navigation a {
 	display:block;
 	padding:.75rem 0;
@@ -933,11 +973,11 @@ border-right: 4px solid transparent;
 	position:absolute !important
 }
 
-/* -----------------------------------------
-	03. Index 
------------------------------------------ */
-/* Big Hero Section
-=================================== */
+/*/*======================================
+	04. Index 
+------------------------------------------*/
+/* 4.1 Big Hero Image
+==========================================*/
 
 .home .site-header {
 	height:80vh;
@@ -1003,8 +1043,8 @@ border-right: 4px solid transparent;
 	max-width:80%
 }
 
-/* Widgets Section
-=================================== */
+/* 4.2 Widgets Section
+======================================*/
 #after-header-widgets {
 	max-width:62rem;
 	margin: 0 auto;
@@ -1031,15 +1071,12 @@ border-right: 4px solid transparent;
 	width:50%;
 	border:none!important;
 }
-@media screen and (min-width: 576px) {
-	#after-header-widgets .widget {
-		width:25%;
-	}
-}
+
 #after-header-widgets .textwidget h4 {
 	font-size:1.5rem;
 	margin:0 0 .75rem;
 }
+
 #after-header-widgets .textwidget img {
 	-moz-box-shadow:0 0 8px rgba(126,99,88,0.3);
 	-webkit-box-shadow:0 0 8px rgba(126,99,88,0.3);
@@ -1052,6 +1089,7 @@ border-right: 4px solid transparent;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 #after-header-widgets .textwidget img:hover {
 	-moz-transform:scale(1.05);
 	-ms-transform:scale(1.05);
@@ -1059,13 +1097,8 @@ border-right: 4px solid transparent;
 	transform:scale(1.05)
 }
 
-
-/* -----------------------------------------
-	04. Blog Section
------------------------------------------ */
-/* Blog Section
-=================================== */
-
+/* 4.3 Post
+======================================*/
 .page .site-header,
 .single .site-header {
     background: url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 80% no-repeat;
@@ -1097,17 +1130,17 @@ border-right: 4px solid transparent;
 	bottom:0;
 }
 
-/* Title
-=================================== */
-.entry-title a:hover {
-	color:rgba(19, 51, 166, 1);
-	text-decoration: underline
-}
-
+/* 4.4 Title
+======================================*/
 
 .entry-title a {
 	color:rgba(14, 99, 216, 1);
 	text-decoration:none;
+}
+
+.entry-title a:hover {
+	color:rgba(19, 51, 166, 1);
+	text-decoration: underline
 }
 
 .entry-title + .entry-meta {
@@ -1128,10 +1161,11 @@ border-right: 4px solid transparent;
 
 }
 
-/* Single Post
-=================================== */
-/* Entry Title
-=================================== */
+/*/*======================================
+	05. Single Post 
+-----------------------------------------*/
+/* 5.1 Entry Title
+=========================================*/
 .entry-title {
 	line-height:1.125;
 	margin-bottom:.66667rem;
@@ -1141,15 +1175,14 @@ border-right: 4px solid transparent;
 	margin-bottom:1.875rem;
 }
 
-/* Captions
-=================================== */
+/* 5.2 Captions
+======================================*/
 .wp-caption .wp-caption-text{
 	font-size: 0.75rem!important;
 }
 
-/* Blockquote
-=================================== */
-
+/* 5.3 Boockquote
+======================================*/
 .entry-content blockquote,
 .comment-content blockquote {
 	border-left:2px solid rgba(204, 202, 196, 1);
@@ -1167,8 +1200,13 @@ border-right: 4px solid transparent;
 .comment-content blockquote {
 	margin:1.5rem .75rem
 }
-/* Comments
-=================================== */
+
+//*=====================================
+	06. Comments
+---------------------------------------*/
+/* 6.1 Comments Section
+======================================*/
+
 .comments-area {
 	border-top:2px solid rgba(19, 51, 166, 1);
 	margin-bottom:1.6875rem;
@@ -1180,74 +1218,78 @@ border-right: 4px solid transparent;
 		line-height: 24px;
 	}
 	
-	.comments-area textarea{
-		border: 1px solid rgba(215,215,215,1);
-		display: block;
-		margin-top:2rem;
-		width:100%;
-
-	}
+.comments-area textarea{
+	border: 1px solid rgba(215,215,215,1);
+	display: block;
+	margin-top:2rem;
+	width:100%;
+}
 	
-	.comments-area .comments-title {
-		font-size:2.25rem;
-		line-height:1.125;
-		margin-bottom:2.25rem
-	}
+.comments-area .comments-title {
+	font-size:2em;
+	line-height:1.125;
+	margin-bottom:2.25rem
+}
 
-	.comments-area .comment-author {
-		line-height:1.5
-	}
-	.comments-area .comment-author .avatar {
-		border:3px solid rgba(14, 99, 216, 1);
-		border-radius:100%;
-		float:right
-	}
-	.comments-area .comment-meta {
-		font-size:.75em;
-		line-height:1.5;
-		margin:0 0 1.125rem
-	}
-	.commentlist li {
-		border-bottom:1px solid rgba(19, 51, 166, 1);
-		margin:0 0 1.6875rem;
-		padding:0 0 1.6875rem
-	}
-	.commentlist li li {
-		border-bottom:0 none;
-		border-top:1px solid rgba(19, 51, 166, 1);
-		margin:1.6875rem 0 0 1.5rem;
-		padding:1.6875rem 0 0
-	}
-	.comment-reply-link {
-		background-color:rgba(68, 142, 246, 1);
-		border:0 none;
-		border-radius:4px;
-		color:rgba(255, 255, 255, 1);
-		cursor:pointer;
-		display:inline-block;
-		font-size:.75em;
-		font-weight:700;
-		padding:.44444rem .75rem;
-		text-transform:uppercase;
-		 -moz-transition: all 0.3s ease;
-	  -o-transition: all 0.3s ease;
-	  -webkit-transition: all 0.3s ease;
-	  transition: all 0.3s ease;
-	}
+.comments-area .comment-author {
+	line-height:1.5
+}
+	
+.comments-area .comment-author .avatar {
+	border:3px solid rgba(14, 99, 216, 1);
+	border-radius:100%;
+	float:right
+}
 
-	.comment-reply-link:hover {
-		background:rgba(14, 99, 216, 1);
-		color:#fff
-	}
-	.comment-reply-title {
-		font-size:1.6875em;
-		margin:0 0 1rem
-	}
+.comments-area .comment-meta {
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 0 1.125rem
+}
 
+.commentlist li {
+	border-bottom:1px solid rgba(19, 51, 166, 1);
+	margin:0 0 1.6875rem;
+	padding:0 0 1.6875rem
+}
 
+.commentlist li li {
+	border-bottom:0 none;
+	border-top:1px solid rgba(19, 51, 166, 1);
+	margin:1.6875rem 0 0 1.5rem;
+	padding:1.6875rem 0 0
+}
+	
+.comment-reply-link {
+	background-color:rgba(68, 142, 246, 1);
+	border:0 none;
+	border-radius:4px;
+	color:rgba(255, 255, 255, 1);
+	cursor:pointer;
+	display:inline-block;
+	font-size:.75em;
+	font-weight:700;
+	padding:.44444rem .75rem;
+	text-transform:uppercase;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
 
-/* Post Navigation On Comments
-=================================== */
+.comment-reply-link:hover {
+	background:rgba(14, 99, 216, 1);
+	color:rgba(255, 255, 255, 1);
+}
+
+.comment-reply-title {
+	font-size:1.6875em;
+	margin:0 0 1rem
+}
+
+/* 6.2 Post Navigation On Comments
+======================================*/
+
 .post-navigation {
 	line-height:1.5;
 	margin-bottom:1.6875rem;
@@ -1266,7 +1308,6 @@ border-right: 4px solid transparent;
 	color:rgba(19, 51, 166, 1);
 }
 	
-
 .post-navigation .nav-previous {
 	float:left;
 	text-align:left;
@@ -1277,10 +1318,11 @@ border-right: 4px solid transparent;
 	text-align:right;
 }
 
-
-/*===========================
-		Sidebar
-=========================== */
+/*/*======================================
+	07. Sidebar
+-----------------------------------------*/
+/* 7.1 Widgets On Sidebar
+=========================================*/
 #primary-sidebar {
 	margin-top:1.25rem;
 }
@@ -1299,18 +1341,21 @@ border-right: 4px solid transparent;
 	color:rgba(0,0,0,.8);
 }
 
-/*
-	Subcribe Form
-=========================== */
+/* 7.2 Subscribe Form
+======================================*/
 #subscribe-email input{
 	width:100%!important;
 }
 p#subscribe-email{
 	margin:0;
 }
-/*===========================
-	Pre Site Footer Widget
-==============================*/
+
+/*/*======================================
+	08. Prefooter Widget
+----------------------------------------*/
+/* 8.1 Background Register Section
+=========================================*/
+
 #footer-widget-1 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1319,16 +1364,16 @@ p#subscribe-email{
 }
 	
 #footer-widgets {
-display:block;
-margin: 0 auto;
-max-width: 100%;
-background-image: url("https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_register_section@2x.png");
-height:440px;
-background-repeat: no-repeat;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	display:block;
+	margin: 0 auto;
+	max-width: 100%;
+	background-image: url("https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_register_section@2x.png");
+	height:440px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #footer-widgets:after {
@@ -1337,12 +1382,14 @@ background-size: cover;
 	display:table
 }
 
+/* 8.2 Title of Register Section
+======================================*/
 #text-4{
 	max-width: 73.125rem;
 	margin: 11.8125rem auto;
 	display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 #text-4 h1.widget-title {
@@ -1351,9 +1398,11 @@ flex-wrap: wrap;
 	flex: 1 0 50%;
 }
 
-/*===========================
-	Footer
-==============================*/
+/*======================================
+	09. Footer
+----------------------------------------*/
+/* 9.1 Site Info
+========================================*/
 .site-info {
 	background-color:rgba(19, 51, 166, 1);
 	padding:4rem;
@@ -1368,7 +1417,6 @@ flex-wrap: wrap;
 	width:190px;
 	margin:0 auto;
 }
-
 
 .site-info .site-info-network {
 		-moz-box-sizing: border-box;
@@ -1391,11 +1439,12 @@ flex-wrap: wrap;
 		border-radius: 3px;
 }
 
-/*===========================
-		Social Media Links
-==============================*/
-/* Sharedaddy - Jetback
-=================================== */
+/*======================================
+	10. Social Media Links
+---------------------------------------*/
+/* 10.1 Sharedaddy - Jetback
+=======================================*/
+
 body div.sharedaddy h3.sd-title {
 	font-size:1.125em;
 	margin:1rem 0 .75rem;
@@ -1405,28 +1454,29 @@ body div.sharedaddy h3.sd-title:before {
 	border-top:0 none;
 	margin-bottom:0
 }
+
 .sd-social .sd-button .share-count{
 	border-radius:20px!important; padding:1px 8px!important;
 }
-#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button
-{
+
+#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button{
 	background-color: transparent!important;
 }
 
 div.sharedaddy div.sd-block {
-border-top: 1px solid rgba(0,0,0,0.13);
-border-top-width: 1px;
-border-top-style: solid;
-border-top-color: rgba(0,0,0,0.13);
-padding: 0;
+	border-top: 1px solid rgba(0,0,0,0.13);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgba(0,0,0,0.13);
+	padding: 0;
 }
 .single-format-quote  div.sharedaddy div.sd-block {
-display: none;
+	display: none;
 }
 
 div.sharedaddy .sd-content {
-margin-top: 1rem;
-margin-left: -0.2rem!important;
+	margin-top: 1rem;
+	margin-left: -0.2rem!important;
 }
 
 div.sharedaddy .sd-content ul li {
@@ -1434,16 +1484,16 @@ div.sharedaddy .sd-content ul li {
 }
 
 div.sharedaddy a.sd-button {
-border: none !important;
-box-shadow: none;
+	border: none !important;
+	box-shadow: none;
 }
 
 .sd-social-icon-text a.sd-button > span, a.sd-button > span {
-opacity: 1;
-padding: 4px 10px!important;
-padding: .4rem 1rem!important;
-color: rgba(255,255,255,1)!important;
-text-transform: uppercase;
+	opacity: 1;
+	padding: 4px 10px!important;
+	padding: .4rem 1rem!important;
+	color: rgba(255,255,255,1)!important;
+	text-transform: uppercase;
 }
 
 li.share-facebook a.sd-button > span,
@@ -1451,68 +1501,168 @@ li.share-google-plus-1 a.sd-button > span,
 li.share-twitter a.sd-button > span,
 li.share-linkedin a.sb-button > span
 {
-border: none!important;
-color: rgba(255,255,255,1)!important;
-font-family: 'Roboto', sans-serif;
-font-weight: 300;
-letter-spacing: 0;
-text-transform: uppercase;
-	 -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+	border: none!important;
+	color: rgba(255,255,255,1)!important;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 li.share-facebook a.sd-button > span {
-background: rgba(73, 101, 160, 1);
+	background: rgba(73, 101, 160, 1);
 }
 
 li.share-facebook a.sd-button:hover > span {
-background: rgba(56, 83, 140, 1);
+	background: rgba(56, 83, 140, 1);
 }
 
 li.share-twitter a.sd-button > span {
-background: #55ACEE;
+	background: #55ACEE;
 }
 
 li.share-twitter a.sd-button:hover > span {
-background: rgba(85, 172, 238, 1);
+	background: rgba(85, 172, 238, 1);
 }
 
 li.share-google-plus-1 a.sd-button > span {
-background: rgba(221, 75, 57, 1);
+	background: rgba(221, 75, 57, 1);
 }
 
 li.share-google-plus-1 a.sd-button:hover > span {
-background: rgba(189, 43, 25, 1);
+	background: rgba(189, 43, 25, 1);
 }
 
 li.share-linkedin a.sd-button > span {
-background: #007bb5;
+	background: #007bb5;
 }
 
 li.share-linkedin a.sd-button:hover > span {
-background: rgba(0, 123, 181, 1);
+	background: rgba(0, 123, 181, 1);
 }
 
 .sd-content .sd-button span.share-count {
-color: rgba(255, 255, 255, 1)!important;
-font-size: 100% !important;
+	color: rgba(255, 255, 255, 1)!important;
+	font-size: 100% !important;
 }
 
 #sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button{
- -webkit-box-shadow: none!important;
-  -moz-box-shadow: none!important;
-  box-shadow: none!important;
-  padding:1px 8px 8px 5px!important;
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+	padding:1px 8px 8px 5px!important;
 }
 
+/*======================================
+	11. Pages
+---------------------------------------- */
+/* 11.1 Speakers
+======================================== */
 
-/*===========================
-		Responsive
-/*===========================/*
-/* Primary and Sidebar
-=================================== */
+.single-wcb_speaker .entry-meta {
+	display:none;
+}
+
+.single-wcb_speaker .speaker-avatar {
+	display: inline;
+}
+
+.single-wcb_speaker .speaker-avatar img {
+    height: 110px;
+    width: 110px;
+    border-radius: 9rem;
+    display: inline;
+    float: left;
+    margin-right: 1rem;
+}
+.wcorg-speaker-description img {
+    border-radius: 6rem;
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+    width: 130px!important;
+    height: 130px!important;
+}
+
+/* 11.2 Tickets
+======================================*/
+#tix-attendees .avatar {
+    float: left;
+    width: 65px!important;
+    height: 65px!important;
+    border-radius: 5rem!important;
+}
+
+#tix-attendees .tix-field {
+    display: block;
+    margin-left: 4.375rem;
+    font-size: 1rem!important;
+}
+
+/* 11.3 Budget
+======================================*/
+.budget th {
+    padding: 10px;
+    text-align: center;
+    background: rgba(66, 159, 253, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.budget td {
+    padding: 8px;
+    border: 1px solid rgba(204, 202, 196, 1);
+}
+
+.budget table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: .8rem;
+    border: 1px solid rgba(66, 159, 253, 1);
+    margin-bottom: 1.25rem;
+}
+
+.budget tfoot td {
+    background: rgba(204, 202, 196, 1);;
+}
+
+/* 11.4 Organizers
+======================================*/
+.wcorg-organizer {
+	padding:0.83rem 0 0.83rem 0;
+	border-bottom:1px solid rgba(14,99,216,0.3);
+}
+.wcorg-organizer h2{
+	margin-bottom: 1.38rem;
+}
+.wcorg-organizer-description {
+	font-size:1em
+}
+
+.wcorg-organizer .wcorg-organizer-description:after {
+	clear:both;
+	content:'';
+	display:table
+}
+.wcorg-organizer .avatar {
+	float:left;
+	margin:0 1rem 1rem 0;
+	border-radius:50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.wcorg-organizer div.sharedaddy {
+	display:none
+}
+
+/*======================================
+	12. Responsive
+---------------------------------------*/
+/* 12.1 Primary and Sidebar
+=======================================*/
 
 @media screen and (min-width: 576px) {
 	#primary {
@@ -1525,9 +1675,8 @@ font-size: 100% !important;
 	}
 }
 
-/* Home Title
-=================================== */
-
+/* 12.2 Home Title
+======================================*/
 @media screen and (max-width: 480px){
 	.home .site-title {
 		width:240px;
@@ -1561,26 +1710,16 @@ font-size: 100% !important;
 	}
 }
 
-/* Fluid Typography
-=================================== */
-
-/* 1.8125em(29px) @ 30em(480px) increasing to 2em(32px) @ 120em(1920px) */
-@media (min-width: 30em) {
-	h1 {
-	  font-size: calc(1.8125rem + ((1vw - 0.3em) * 0.2083));
-	  /* Where: * 0.2083 = 100 * font_Size_Difference / viewport_Width_Difference */
+/* 12.3 Widget Section
+======================================*/
+@media screen and (min-width: 576px) {
+	#after-header-widgets .widget {
+		width:25%;
 	}
-  }
-  /* Prevent font scaling beyond this breakpoint */
-  @media (min-width: 120em) {
-	h1 {
-	  font-size: 2em;
-	}
-  }
-  
-/* Table
-=================================== */
+}
 
+/* 12.4 Table
+======================================*/
 @media screen and (max-width:768px) {
 	table {width:100%; border:none!important;}
 	thead {display: none;}
@@ -1594,117 +1733,26 @@ font-size: 100% !important;
   }
 }
 
-/*----------------------------
-		Pages
-----------------------------*/
-
-/* 	Speakers
-=================================== */
-.single-wcb_speaker .entry-meta {
-	display:none;
-}
-
-.single-wcb_speaker .speaker-avatar {
-	display: inline;
-}
-
-.single-wcb_speaker .speaker-avatar img {
-    height: 110px;
-    width: 110px;
-    border-radius: 9rem;
-    display: inline;
-    float: left;
-    margin-right: 1rem;
-}
-.wcorg-speaker-description img {
-    border-radius: 6rem;
-    display: inline-block;
-    float: left;
-    margin-right: 1rem;
-    width: 130px!important;
-    height: 130px!important;
-}
-
-/* 	Tickets
-=================================== */
-#tix-attendees .avatar {
-    float: left;
-    width: 65px!important;
-    height: 65px!important;
-    border-radius: 5rem!important;
-}
-
-#tix-attendees .tix-field {
-    display: block;
-    margin-left: 4.375rem;
-    font-size: 1rem!important;
-}
-
-
-/* 	Budget
-=================================== */
-
-.budget th {
-    padding: 10px;
-    text-align: center;
-    background: rgba(66, 159, 253, 1);
-    color: rgba(255, 255, 255, 1);
-}
-
-.budget td {
-    padding: 8px;
-    border: 1px solid rgba(204, 202, 196, 1);
-}
-
-.budget table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    font-size: .8rem;
-    border: 1px solid rgba(66, 159, 253, 1);
-    margin-bottom: 1.25rem;
-}
-
-.budget tfoot td {
-    background: rgba(204, 202, 196, 1);;
-}
-
-
-/* 	Organizers
-=================================== */
-
-.wcorg-organizer {
-	padding:0.83rem 0 0.83rem 0;
-	border-bottom:1px solid rgba(14,99,216,0.3);
-}
-.wcorg-organizer h2{
-	margin-bottom: 1.38rem;
-}
-.wcorg-organizer-description {
-	font-size:1em
-}
-
-.wcorg-organizer .wcorg-organizer-description:after {
-	clear:both;
-	content:'';
-	display:table
-}
-.wcorg-organizer .avatar {
-	float:left;
-	margin:0 1rem 1rem 0;
-	border-radius:50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-}
-.wcorg-organizer div.sharedaddy {
-	display:none
-}
-
-/* Footer
-=================================== */
-
-
+/*  12.5 Footer
+======================================*/
 @media screen and (max-width: 1023px) {
 	.site-info .site-info-generator {
 		padding-top:9.375rem;
 	}
 }
+
+/* 12.6 Fluid Typography
+======================================*/
+/* 1.8125em(29px) @ 30em(480px) increasing to 2em(32px) @ 120em(1920px) */
+@media (min-width: 30em) {
+	h1 {
+	  font-size: calc(1.8125rem + ((1vw - 0.3em) * 0.2083));
+	  /* Where: * 0.2083 = 100 * font_Size_Difference / viewport_Width_Difference */
+	}
+  }
+  /* Prevent font scaling beyond this breakpoint */
+  @media (min-width: 120em) {
+	h1 {
+	  font-size: 2em;
+	}
+  }
