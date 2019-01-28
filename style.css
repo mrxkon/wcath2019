@@ -1085,17 +1085,20 @@ input[type='text'],input[type='email'] {
 	cursor:pointer;
 	display:block;
 	margin:0 auto;
-	 -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+  	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
 #after-header-widgets .textwidget img:hover {
-	-moz-transform:scale(1.05);
-	-ms-transform:scale(1.05);
-	-webkit-transform:scale(1.05);
-	transform:scale(1.05)
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);
+	-webkit-transform:scale(1);
+	transform:scale(1);
 }
 
 /* 4.3 Post
@@ -1279,7 +1282,9 @@ a.more-link {
 .comment-reply-link {
 	background-color:rgba(68, 142, 246, 1);
 	border:0 none;
-	border-radius:4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	color:rgba(255, 255, 255, 1);
 	cursor:pointer;
 	display:inline-block;
@@ -1472,7 +1477,10 @@ body div.sharedaddy h3.sd-title:before {
 }
 
 .sd-social .sd-button .share-count{
-	border-radius:20px!important; padding:1px 8px!important;
+	 padding:0 0.44rem!important;
+	-webkit-border-radius: 20px!important; 
+	-moz-border-radius: 20px!important; 
+	border-radius: 20px!important; 
 }
 
 #sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button{
@@ -1590,13 +1598,17 @@ li.share-linkedin a.sd-button:hover > span {
 .single-wcb_speaker .speaker-avatar img {
     height: 110px;
     width: 110px;
-    border-radius: 9rem;
+	-webkit-border-radius: 20px!important; 
+	-moz-border-radius: 20px!important; 
+	border-radius: 20px!important; 
     display: inline;
     float: left;
     margin-right: 1rem;
 }
 .wcorg-speaker-description img {
-    border-radius: 6rem;
+	-webkit-border-radius: 90px!important; 
+	-moz-border-radius: 90px!important; 
+	border-radius: 90px!important; 
     display: inline-block;
     float: left;
     margin-right: 1rem;
@@ -1610,7 +1622,9 @@ li.share-linkedin a.sd-button:hover > span {
     float: left;
     width: 65px!important;
     height: 65px!important;
-    border-radius: 5rem!important;
+	-webkit-border-radius: 80px!important; 
+	-moz-border-radius: 80px!important; 
+	border-radius: 80px!important; 
 }
 
 #tix-attendees .tix-field {
