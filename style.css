@@ -1564,11 +1564,11 @@ font-size: 100% !important;
 /* Fluid Typography
 =================================== */
 
-/* 1.5em(24px) @ 30em(480px) increasing to 2em(32px) @ 120em(1920px) */
+/* 1.8125em(29px) @ 30em(480px) increasing to 2em(32px) @ 120em(1920px) */
 @media (min-width: 30em) {
 	h1 {
-	  font-size: calc(1.5rem + ((1vw - 0.3em) * 0.5556));
-	  /* Where: * 0.5556 = 100 * font_Size_Difference / viewport_Width_Difference */
+	  font-size: calc(1.8125rem + ((1vw - 0.3em) * 0.2083));
+	  /* Where: * 0.2083 = 100 * font_Size_Difference / viewport_Width_Difference */
 	}
   }
   /* Prevent font scaling beyond this breakpoint */
