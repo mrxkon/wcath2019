@@ -22,6 +22,7 @@
 	5.1 Entry Title
 	5.2 Captions
 	5.3 Blockquote
+	5.4 Default Block Image
 06. Commments
 	6.1 Comments Section
 	6.2 Post Navigation On Comments
@@ -1190,7 +1191,7 @@ a.more-link {
 	font-size: 0.75rem!important;
 }
 
-/* 5.3 Boockquote
+/* 5.3 Blckokquote
 ======================================*/
 .entry-content blockquote,
 .comment-content blockquote {
@@ -1210,7 +1211,13 @@ a.more-link {
 	margin:1.5rem .75rem
 }
 
-//*=====================================
+/* 5.4 Default Block Image
+======================================*/
+.wp-block-image{
+	margin-bottom:2rem!important;
+}
+
+/*=====================================
 	06. Comments
 ---------------------------------------*/
 /* 6.1 Comments Section
