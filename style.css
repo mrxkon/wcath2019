@@ -1747,6 +1747,21 @@ li.share-linkedin a.sd-button:hover > span {
 
 /* 12.4 Table
 ======================================*/
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	margin-bottom: 1.5rem;
+}
+td,th{
+	padding: 1rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
 @media screen and (max-width:768px) {
 	table {width:100%; border:none!important;}
 	thead {display: none;}
