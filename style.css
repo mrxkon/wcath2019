@@ -1519,7 +1519,9 @@ div.sharedaddy a.sd-button {
 li.share-facebook a.sd-button > span,
 li.share-google-plus-1 a.sd-button > span,
 li.share-twitter a.sd-button > span,
-li.share-linkedin a.sb-button > span
+li.share-linkedin a.sb-button > span,
+li.share-email a.sb-button > span,
+li.share-jetpack-whatsapp a.sb-button > span
 {
 	border: none!important;
 	color: rgba(255,255,255,1)!important;
@@ -1542,7 +1544,7 @@ li.share-facebook a.sd-button:hover > span {
 }
 
 li.share-twitter a.sd-button > span {
-	background: #55ACEE;
+	background: rgba(85, 172, 238, 1);
 }
 
 li.share-twitter a.sd-button:hover > span {
@@ -1558,11 +1560,28 @@ li.share-google-plus-1 a.sd-button:hover > span {
 }
 
 li.share-linkedin a.sd-button > span {
-	background: #007bb5;
+	background: rgba(0, 123, 181, 1);
 }
 
 li.share-linkedin a.sd-button:hover > span {
 	background: rgba(0, 123, 181, 1);
+}
+
+li.share-email a.sd-button > span {
+	background: rgba(18, 18, 18, 1);
+}
+
+li.share-linkedin a.sd-button:hover > span {
+	background: rgba(18, 18, 18, 0.4);
+}
+
+
+li.share-jetpack-whatsapp a.sd-button > span {
+	background:rgba(37, 211, 102, 1);
+}
+
+li.share-jetpack-whatsapp a.sd-button:hover > span {
+	background: rgba(37, 211, 102, 0.7);
 }
 
 .sd-content .sd-button span.share-count {
