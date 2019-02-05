@@ -28,7 +28,7 @@
 	6.2 Post Navigation On Comments
 07. Sidebar
 	7.1 Widgets On Sidebar
-	7.2 Subacribe Form
+	7.2 Subcribe Form
 08. Prefooter Widget
 	8.1 Background Register Section
 	8.2 Title of Register Section
@@ -41,13 +41,15 @@
 	11.2 Tickets
 	11.3 Budget
 	11.4 Organizers
-12. Responsive
-	12.1 Primary and Sidebar
-	12.2 Home Title
-	12.3 Widget Section
-	12.4 Table
-	12.5 Footer
-	12.6 Fluid Typography
+12. Contact Page
+	12.1 Textarea
+13. Responsive
+	13.1 Primary and Sidebar
+	13.2 Home Title
+	13.3 Widget Section
+	13.4 Table
+	13.5 Footer
+	13.6 Fluid Typography
 
 */
 
@@ -1704,9 +1706,19 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 }
 
 /*======================================
-	12. Responsive
+	12. Contact page
 ---------------------------------------*/
-/* 12.1 Primary and Sidebar
+/* 12.1 Textarea
+=======================================*/
+.contact-form textarea{
+	border: 1px solid rgba(215,215,215,1)!important;
+}
+
+
+/*======================================
+	13. Responsive
+---------------------------------------*/
+/* 13.1 Primary and Sidebar
 =======================================*/
 
 @media screen and (min-width: 576px) {
@@ -1720,7 +1732,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 	}
 }
 
-/* 12.2 Home Title
+/* 13.2 Home Title
 ======================================*/
 @media screen and (max-width: 480px){
 	.home .site-title {
@@ -1755,7 +1767,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 	}
 }
 
-/* 12.3 Widget Section
+/* 13.3 Widget Section
 ======================================*/
 @media screen and (min-width: 576px) {
 	#after-header-widgets .widget {
@@ -1764,7 +1776,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 }
 
 
-/* 12.4 Table
+/* 13.4 Table
 ======================================*/
 
 table{
@@ -1795,7 +1807,7 @@ td,th{
   }
 }
 
-/*  12.5 Footer
+/*  13.5 Footer
 ======================================*/
 @media screen and (max-width: 1023px) {
 	.site-info .site-info-generator {
@@ -1803,7 +1815,7 @@ td,th{
 	}
 }
 
-/* 12.6 Fluid Typography
+/* 13.6 Fluid Typography
 ======================================*/
 /* 1.8125em(29px) @ 30em(480px) increasing to 2em(32px) @ 120em(1920px) */
 @media (min-width: 30em) {
