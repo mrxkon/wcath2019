@@ -1714,6 +1714,9 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 	border: 1px solid rgba(215,215,215,1)!important;
 }
 
+p.contact-submit input[type="submit"] {
+    width: 25%;
+}
 
 /*======================================
 	13. Responsive
