@@ -1194,9 +1194,16 @@ a.more-link {
 
 /* 5.3 Blckokquote
 ======================================*/
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p{
+	font-size: 1em;
+	font-style: italic;
+	line-height: 1.6;
+	text-align: left;
+}
+
 .entry-content blockquote,
 .comment-content blockquote {
-	border-left:2px solid rgba(204, 202, 196, 1);
+	border-left:3px solid rgba(204, 202, 196, 1);
 	font-family: 'Ubuntu', sans-serif;
 	padding:1rem;
 }
