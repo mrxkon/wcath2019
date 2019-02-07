@@ -1177,6 +1177,9 @@ a.more-link {
 -----------------------------------------*/
 /* 5.1 Entry Title
 =========================================*/
+.byline{
+	display: none;
+}
 .entry-title {
 	line-height:1.125;
 	margin-bottom:.66667rem;
@@ -1192,7 +1195,7 @@ a.more-link {
 	font-size: 0.75rem!important;
 }
 
-/* 5.3 Blckokquote
+/* 5.3 Blockquote
 ======================================*/
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p{
 	font-size: 1em;
