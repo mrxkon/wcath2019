@@ -1134,7 +1134,7 @@ input[type='text'],input[type='email'] {
 
 a.more-link {
     display: inline-block;
-    margin-bottom: 2rem;
+    margin: 2rem 0  1rem 0;
     color: rgba(14, 99, 216, 1);
     font-weight: 500;
 	text-decoration: underline;
@@ -1196,7 +1196,6 @@ a.more-link {
 ======================================*/
 .wp-block-quote.is-large p, .wp-block-quote.is-style-large p{
 	font-size: 1em;
-	font-style: italic;
 	line-height: 1.6;
 	text-align: left;
 }
