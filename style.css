@@ -796,6 +796,49 @@ textarea:focus{
     }
 }
 
+
+/* Menu */
+.menu{
+	list-style:none;
+	max-width: 73.125rem;
+	margin:0 auto;
+	text-align:center;
+}
+
+.menu > li > a{
+	display: flex;
+	height:100%;
+	align-items: center;
+}
+
+.menu-item {
+	position: relative;
+	margin:0;
+	display: block;
+	font-weight:normal;
+	text-align:left;
+}
+
+.menu-item a{
+	display: block;
+	padding: .5rem 1rem;
+	text-decoration:none;
+}
+
+.menu-item a.focus,
+.menu-item a:active,
+.menu-item a:focus,
+.menu-item a:hover{
+	color:rgba(255, 255, 255, 1);
+	background-color: rgba(14, 99, 216, 1);
+}
+
+/* Current menu */
+.current-menu-item > a{
+	color:rgba(255, 255, 255, 1);
+	background-color: rgba(14, 99, 216, 1);
+
+}
 /* Menu-toogle*/
 .menu-toggle{
 	padding:1rem;
@@ -826,40 +869,6 @@ textarea:focus{
     top: -.25rem;
     border-top-color: transparent;
     border-bottom-color:#333;
-}
-
-/* Menu */
-.menu{
-	list-style:none;
-	max-width: 73.125rem;
-	margin:0 auto;
-	text-align:center;
-}
-
-.menu > li > a{
-	display: flex;
-	height:100%;
-	align-items: center;
-}
-
-.menu-item {
-	position: relative;
-	margin:0;
-	display: block;
-	font-weight:normal;
-	text-align:left;
-}
-
-.menu-item a{
-	display: block;
-	text-decoration:none;
-}
-
-/* Current menu */
-.current-menu-item > a{
-	color:rgba(255, 255, 255, 1);
-	background-color: rgba(14, 99, 216, 1);
-
 }
 
 /* Sub Menu */
