@@ -962,13 +962,6 @@ textarea:focus{
 	cursor: pointer;
 }
 
-.menu-toggle:before{
-	display: inline-block;
-	content:"Πλοήγηση";
-	line-height:24px;
-	vertical-align: middle;
-}
-
 .main-small-navigation ul {
 	text-align:left;
 	padding:0 1rem 1rem
