@@ -921,12 +921,7 @@ textarea:focus{
 	display: none;
 }
 
-
-@media screen and (min-width:48em){
-
-	.main-navigation {
-		background-color: #fff
-	}
+@media (min-width:48em){
 	/* Menu */
 	.menu {
         -ms-flex-pack: justify;
@@ -942,7 +937,14 @@ textarea:focus{
         -ms-flex-align: center;
         align-items: center
 	}
-		/* Menu-item */
+}
+
+@media screen and (min-width:48em){
+	.main-navigation {
+		background-color: #fff;
+	}
+
+	/* Menu-item */
 	.menu-item {
         margin: 0 .0625rem;
         display: inline-block;
