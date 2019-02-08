@@ -964,8 +964,35 @@ textarea:focus{
     .menu-item-has-children.current-menu-item>a:after {
 		border-top-color: #333;
 	}
+
+	/* Sub-menu */
+	.sub-menu {
+        position: absolute;
+        top: 100%;
+        left: -999em;
+        z-index: 310;
+        min-width: 16.25rem;
+        background-color:#fff;
+	}
 	
+    .sub-menu .menu-item {
+        width: 100%;
+        margin: 0;
+        border-top: 1px solid #333;
+        text-align: left
+	}
 	
+    .sub-menu li.focus>a,
+    .sub-menu li:hover>a {
+		background-color: rgba(68, 142, 246, 1);
+	}
+	
+    .sub-menu a {
+        padding: .625rem 1rem;
+        color: hsla(0, 0%, 100%, .9);
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+	}
 	
 }
 
