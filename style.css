@@ -839,6 +839,18 @@ textarea:focus{
 	background-color: rgba(14, 99, 216, 1);
 
 }
+/* Sub menu */
+.sub-menu{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.sub-menu .menu-item {
+    text-transform: none;
+}
+
+
 /* Menu-toogle*/
 .menu-toggle{
 	padding:1rem;
@@ -927,7 +939,7 @@ textarea:focus{
 
 	.menu-item-has-children>a .dropdown-toggle {
         display: inline-block;
-        display: none
+        display: none;
 	}
 	
     .menu-item-has-children.focus>a,
@@ -935,6 +947,25 @@ textarea:focus{
         color:#fff;
 		background-color: rgba(68, 142, 246, 1);
 	}
+
+	.menu-item-has-children.focus>a:after,
+    .menu-item-has-children:hover>a:after {
+        border-top-color: #333;
+    }
+    .menu-item-has-children.focus>.sub-menu,
+    .menu-item-has-children:hover>.sub-menu {
+        left: 0;
+    }
+    .menu-item-has-children.focus.menu-item:last-of-type>.sub-menu,
+    .menu-item-has-children:hover.menu-item:last-of-type>.sub-menu {
+        right: 0;
+        left: auto;
+    }
+    .menu-item-has-children.current-menu-item>a:after {
+		border-top-color: #333;
+	}
+	
+	
 	
 }
 
@@ -945,6 +976,21 @@ textarea:focus{
     }
     .toggled-on .menu {
         display: block
+	}
+	/* Sub-menu */
+	.sub-menu a {
+        padding-left: 2.5rem
+    }
+    .sub-menu a:before {
+        position: absolute;
+        left: 1.5rem;
+        top: 50%;
+        margin-top: -.5rem;
+        width: .125rem;
+        height: 1rem;
+        transform: rotate(45deg);
+        background-color:#333;
+        content: ""
     }
 }
 
