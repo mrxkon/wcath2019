@@ -867,6 +867,7 @@ textarea:focus{
 	cursor: pointer;
 	position: relative;
 	z-index: 900;
+	border-bottom:2px solid rgba(19, 51, 166, 1);
 }
 
 .menu-toggle.focus,
