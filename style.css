@@ -802,7 +802,19 @@ textarea:focus{
 	list-style:none;
 	max-width: 73.125rem;
 	text-align:center;
-	
+	margin: 0;
+    padding: 0;
+    *zoom: 1;
+}
+
+.menu:after,
+.menu:before {
+    content: "";
+    display: table;
+}
+
+.menu:after {
+    clear: both;
 }
 
 .menu > li > a{
