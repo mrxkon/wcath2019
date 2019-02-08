@@ -1030,6 +1030,9 @@ textarea:focus{
 }
 
 @media (max-width:62em) {
+	.menu-toggle{
+		display: block;
+	}
 	.main-navigation {
 		background:rgba(255, 255, 255, 1);
     }
