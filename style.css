@@ -802,10 +802,9 @@ textarea:focus{
     text-align: center;
     letter-spacing: .05em;
     color: rgba(19, 51, 166, 1);
-	border-bottom:1px solid rgba(19, 51, 166, 1);
+    border-radius: 0;
     background-color: rgba(255, 255, 255, 1);
 	cursor: pointer;
-	position: relative;
 }
 
 .menu-toggle.focus,
@@ -868,8 +867,7 @@ textarea:focus{
     margin: 0;
     padding: 0;
     *zoom: 1;
-	text-align: center;
-	position: relative;
+    text-align: center;
     max-width: 1200px;
 	margin: 0 auto;
 	z-index: 900;
