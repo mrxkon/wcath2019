@@ -801,8 +801,8 @@ textarea:focus{
 .menu{
 	list-style:none;
 	max-width: 73.125rem;
-	margin:0 auto;
 	text-align:center;
+	
 }
 
 .menu > li > a{
@@ -911,6 +911,10 @@ textarea:focus{
 
 
 @media screen and (min-width:48em){
+
+	.main-navigation {
+		background-color: #fff
+	}
 	/* Menu */
 	.menu {
         -ms-flex-pack: justify;
@@ -1021,10 +1025,16 @@ textarea:focus{
     .menu {
         border-top: 1px solid #333;
         display: none;
-    }
-    .toggled-on .menu {
+	}
+	
+    .main-navigation {
+        background-color:#fff;
+	}
+	
+    .main-navigation.toggled-on .menu {
         display: block
 	}
+	
 	/* Sub-menu */
 	.sub-menu a {
         padding-left: 2.5rem
