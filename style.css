@@ -873,8 +873,29 @@ textarea:focus{
 	color:#fff;
 }
 
+.menu-toggle:before {
+    font-size: 16px;
+    line-height: 24px;
+    content: "Menu";
+}
+
+.menu-toggle:after,
+.menu-toggle:before {
+    display: inline-block;
+    vertical-align: middle
+}
+
 .menu-toggle[aria-expanded=true] {
     color:#333;
+}
+
+.menu-toggle:after {
+    position: relative;
+    top: .25rem;
+    border: .375rem solid transparent;
+    margin-left: .5rem;
+    border-top-color:#333;
+    content: "";
 }
 
 .menu-toggle[aria-expanded=true]:after {
@@ -1024,6 +1045,10 @@ textarea:focus{
 @media (min-width:62em) {
     .menu-item a {
         padding: 1.5rem
+	}
+	.sub-menu a {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
     }
 }
 
