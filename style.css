@@ -810,11 +810,21 @@ textarea:focus{
 .menu-toggle.active,
 .menu-toggle.hover{
 	background-color: rgba(68, 142, 246, 1);
-	color:#fff
+	color:#fff;
+}
+
+.menu-toggle[aria-expanded=true] {
+    color:#333;
+}
+
+.menu-toggle[aria-expanded=true]:after {
+    top: -.25rem;
+    border-top-color: transparent;
+    border-bottom-color:#333;
 }
 
 .menu{
-	list-style:none;
+list-style:none;
 max-width: 73.125rem;
 margin:0 auto;
 text-align:center;
