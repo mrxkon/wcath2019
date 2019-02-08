@@ -893,7 +893,7 @@ textarea:focus{
     top: .25rem;
     border: .375rem solid transparent;
     margin-left: .5rem;
-    border-top-color:#333;
+    border-top-color:rgba(14, 99, 216, 1);
     content: "";
 }
 
@@ -965,7 +965,7 @@ textarea:focus{
         bottom: -.125rem;
         border: .25rem solid transparent;
         left: .5rem;
-        border-top-color:#333;
+        border-top-color:rgba(14, 99, 216, 1);
         content: ""
 	}
 
@@ -982,7 +982,7 @@ textarea:focus{
 
 	.menu-item-has-children.focus>a:after,
     .menu-item-has-children:hover>a:after {
-        border-top-color: #333;
+        border-top-color: rgba(14, 99, 216, 1);;
     }
     .menu-item-has-children.focus>.sub-menu,
     .menu-item-has-children:hover>.sub-menu {
@@ -994,7 +994,7 @@ textarea:focus{
         left: auto;
     }
     .menu-item-has-children.current-menu-item>a:after {
-		border-top-color: #333;
+		border-top-color: rgba(14, 99, 216, 1);
 	}
 
 	/* Sub-menu */
@@ -1021,7 +1021,7 @@ textarea:focus{
 	
     .sub-menu a {
         padding: .625rem 1rem;
-        color: #333;
+        color: rgba(14, 99, 216, 1);
         padding-left: 1.5rem;
         padding-right: 1.5rem
 	}
