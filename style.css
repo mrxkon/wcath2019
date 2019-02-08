@@ -1153,7 +1153,7 @@ textarea:focus{
 	margin: 0 auto;
 	bottom: 45px;
 	position: relative;
-	z-index:900;
+	z-index:800;
 }
 
 #after-header-widgets h1 {
