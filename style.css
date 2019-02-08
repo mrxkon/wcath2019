@@ -899,7 +899,7 @@ textarea:focus{
         display: inline-block;
         font-size: 18px;
         line-height: 1.33333em;
-        text-align: center
+        text-align: center;
 	}
 
 	.menu-item a{
@@ -914,7 +914,8 @@ textarea:focus{
 	/* Menu Item Children*/
 	.menu-item-has-children {
         background-color: transparent
-    }
+	}
+	
     .menu-item-has-children>a:after {
         position: relative;
         bottom: -.125rem;
@@ -922,7 +923,19 @@ textarea:focus{
         left: .5rem;
         border-top-color:#333;
         content: ""
-    }
+	}
+
+	.menu-item-has-children>a .dropdown-toggle {
+        display: inline-block;
+        display: none
+	}
+	
+    .menu-item-has-children.focus>a,
+    .menu-item-has-children:hover>a {
+        color:#fff;
+		background-color: rgba(68, 142, 246, 1);
+	}
+	
 }
 
 @media (max-width:47.9375em) {
