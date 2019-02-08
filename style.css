@@ -868,10 +868,36 @@ textarea:focus{
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (min-width:48em){
+	/* Menu */
+	.menu {
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+    .menu,
+    .menu>li>a {
+        display: -ms-flexbox;
+        display: flex
+    }
+    .menu>li>a {
+        height: 100%;
+        -ms-flex-align: center;
+        align-items: center
+	}
+		/* Menu  Toggle*/
 	.menu-toggle{
 		display: none;
 	}
+}
+
+@media (max-width:47.9375em) {
+    .menu {
+        border-top: 1px solid #333;
+        display: none;
+    }
+    .toggled-on .menu {
+        display: block
+    }
 }
 
 
