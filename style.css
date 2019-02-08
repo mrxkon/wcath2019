@@ -920,12 +920,14 @@ textarea:focus{
 
 	/* Menu */
 	.menu {
-	margin:0 auto;
+		-ms-flex-pack: justify;
+        justify-content: space-between
 	}
 
 	.menu,
 	.menu>li>a {
-
+		display: -ms-flexbox;
+        display: flex
 	}
 
 	.menu>li>a {
@@ -1033,7 +1035,7 @@ textarea:focus{
 	
 }
 
-@media (max-width:62em) {
+@media (max-width:47.9375em) {
 	.main-navigation {
 		background:rgba(255, 255, 255, 1);
     }
