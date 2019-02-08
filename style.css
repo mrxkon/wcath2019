@@ -993,7 +993,6 @@ textarea:focus{
 }
 
 .site-header {
-	/*background:url('https://2019.athens.wordcamp.org/files/2019/01/index.jpg') 50% 100% no-repeat;*/
 	background:url('https://2019.athens.wordcamp.org/files/2019/02/wcathens2019-min.png') 50% 100% no-repeat;
 	background-size:cover;
 	-webkit-background-size: cover;
@@ -1233,6 +1232,10 @@ a.more-link {
 ======================================*/
 .wp-block-image{
 	margin-bottom:2rem!important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
 }
 
 /*=====================================
