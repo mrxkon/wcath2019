@@ -787,15 +787,6 @@ textarea:focus{
 	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width:47.9375em) {
-    .main-navigation {
-		background:rgba(255, 255, 255, 1);
-    }
-    .main-navigation.toggled-on .menu {
-        display: block
-    }
-}
-
 
 /* Menu */
 .menu{
@@ -872,6 +863,7 @@ textarea:focus{
 	background-color:rgba(255, 255, 255, 1);
 	cursor: pointer;
 	position: relative;
+	z-index: 900;
 }
 
 .menu-toggle.focus,
@@ -1039,17 +1031,17 @@ textarea:focus{
 
 @media (max-width:47.9375em) {
 	.main-navigation {
-        background-color:#fff;
-	}
-	
+		background:rgba(255, 255, 255, 1);
+    }
     .main-navigation.toggled-on .menu {
         display: block
-	}
-
+    }
     .menu {
 		background-color:#fff;
         border-top: 1px solid #333;
-        display: none;
+		display: none;
+		position: relative;
+		z-index: 900;
 	}
 	
 	/* Sub-menu */
@@ -1136,6 +1128,7 @@ textarea:focus{
 	top: 0;
 	left: 0;
 	background: rgba(66, 159, 253, 0.7);
+	z-index: 100;
 }
 
 .home .site-header hgroup {
