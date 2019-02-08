@@ -791,6 +791,28 @@ textarea:focus{
 
 }
 
+/* Menu-toogle*/
+.menu-toggle{
+	padding:1rem;
+	margin-top:.125rem;
+	width:100%;
+	font-size:0;
+	line-height: 24px;
+	font-weight: 700;
+	text-align:center;
+	letter-spacing: .05rem;
+	color:#333;
+	background-color:rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+
+.menu-toggle.focus,
+.menu-toggle.active,
+.menu-toggle.hover{
+	background-color: rgba(68, 142, 246, 1);
+	color:#fff
+}
+
 .menu{
 	list-style:none;
 max-width: 73.125rem;
@@ -804,21 +826,6 @@ text-align:center;
 	align-items: center;
 }
 
-@media screen and (min-width:768px){
-	.menu{
-		border-top: 1px solid rgba(255,255,255,.2);
-	}
-	.menu.toggled-on{
-		display: block;
-	}
-
-	.menu-item{
-		margin:0 1rem;
-		line-height:24px;
-		text-align:center
-	}
-
-}
 
 .menu-item {
 	position: relative;
@@ -840,12 +847,38 @@ text-decoration:none;
 }
 
 /* Sub Menu */
-.menu-item-has-children.dropdown-toggle{
+.menu-item-has-children .dropdown-toggle{
 	display: none;
 }
 
 
+@media screen and (min-width:768px){
+	.menu{
+		border-top: 1px solid rgba(255,255,255,.2);
+	}
+	.menu.toggled-on{
+		display: block;
+	}
 
+	.menu-item{
+		margin:0 1rem;
+		line-height:24px;
+		text-align:center
+	}
+
+/* Sub menu*/
+	.menu-item-has-children .dropdown-toggle{
+		background-color: transparent;
+	}
+
+	.menu-item-has-children .dropdown-toggle > a:after{
+		position: relative
+		bottom:2rem;
+		border:2px solid transparent;
+		left:
+	}
+	}
+}
 
 
 /* 3.2 Mobile Nav Menu
