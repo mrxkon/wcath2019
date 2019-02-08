@@ -1037,7 +1037,7 @@ textarea:focus{
     }
     .menu {
 		background-color:#fff;
-        border-top: 1px solid #333;
+        border-top: 1px solid rgba(14, 99, 216, 1);
 		display: none;
 		position: relative;
 		z-index: 900;
