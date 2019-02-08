@@ -798,7 +798,8 @@ textarea:focus{
 	text-align:center;
 	margin: 0;
     padding: 0;
-    *zoom: 1;
+	*zoom: 1;
+	margin:0 auto;
 }
 
 .menu:after,
@@ -839,8 +840,6 @@ textarea:focus{
 	background-color: rgba(14, 99, 216, 1);
 }
 
-
-
 /* Sub menu */
 .sub-menu{
 	list-style:none;
@@ -855,6 +854,7 @@ textarea:focus{
 /* Menu-toogle*/
 .menu-toggle{
 	padding:1rem;
+	margin:0;
 	margin-top:.125rem;
 	width:100%;
 	font-size:0;
@@ -874,7 +874,7 @@ textarea:focus{
 .menu-toggle.active,
 .menu-toggle.hover{
 	background-color: rgba(68, 142, 246, 1);
-	color:#fff;
+	color:rgba(255, 255, 255, 1);
 }
 
 .menu-toggle:before {
@@ -913,25 +913,28 @@ textarea:focus{
 	display: none;
 }
 
-@media (min-width:48em){
-	.main-navigation {
-		background-color: rgba(255, 255, 255, 1);;
-	}
+.current-menu-item > a{
+	color:rgba(255, 255, 255, 1);
+	background-color: rgba(14, 99, 216, 1);
+}
 
+@media (min-width:48em){
 	/* Menu */
 	.menu {
 		-ms-flex-pack: justify;
-        justify-content: space-between
+        justify-content: space-between'
 	}
 
 	.menu,
 	.menu>li>a {
 		display: -ms-flexbox;
-        display: flex
+        display: flex;
 	}
 
 	.menu>li>a {
 		height: 100%;
+		-ms-flex-align: center;
+        align-items: center
 	}
 
 		/* Menu-item */
@@ -954,10 +957,7 @@ textarea:focus{
 	}
 
 /* Current menu */
-	.current-menu-item > a{
-	color:rgba(255, 255, 255, 1);
-	background-color: rgba(14, 99, 216, 1);
-	}
+
 
 	/* Menu Item Children*/
 	.menu-item-has-children {
