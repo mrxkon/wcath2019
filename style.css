@@ -1029,10 +1029,7 @@ textarea:focus{
 	
 }
 
-@media (max-width:62em) {
-	.menu-toggle{
-		display: block;
-	}
+@media (max-width:47.9375em) {
 	.main-navigation {
 		background:rgba(255, 255, 255, 1);
     }
@@ -1564,18 +1561,17 @@ p#subscribe-email{
 		color: rgba(0,0,0,.8);
 		cursor: pointer;
 		font-size: .75em;
-		height: 84px;
-		left: 1.125rem;
-		padding: 0.83rem 0 0.1rem 0;
-		position: fixed;
+		padding:.5rem;
+		position: relative;
 		text-decoration: none;
-		top: 0;
-		width: 95px;
+		bottom:0px;
+		display: block;
+		top:25px;
 		z-index: 900;
-		background-color: #eee;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
+		margin:0 auto;
 }
 
 /*======================================
