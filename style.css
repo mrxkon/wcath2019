@@ -913,7 +913,7 @@ textarea:focus{
 	display: none;
 }
 
-@media (min-width:62em){
+@media (min-width:48em){
 	.main-navigation {
 		background-color: rgba(255, 255, 255, 1);;
 	}
