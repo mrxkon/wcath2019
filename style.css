@@ -1232,6 +1232,9 @@ a.more-link {
 ======================================*/
 .wp-block-image{
 	margin-bottom:2rem!important;
+}
+
+.wp-block-image img{
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
