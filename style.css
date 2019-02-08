@@ -849,7 +849,7 @@ textarea:focus{
 
 @media (min-width:48em) {
     .menu-toggle {
-        display: none;
+        display: block;
     }
 }
 
