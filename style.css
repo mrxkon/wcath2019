@@ -775,6 +775,9 @@ textarea:focus{
 ----------------------------------------*/
 	/* 3.1 Desktop Nav Menu
 ========================================*/
+.assistive-text{
+	display: none;
+}
 .main-navigation {
 	background:rgba(255, 255, 255, 1);
 	top:0;
