@@ -1565,13 +1565,14 @@ p#subscribe-email{
 		position: relative;
 		text-decoration: none;
 		bottom:0px;
-		display: block;
 		top:25px;
 		z-index: 900;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
 		margin:0 auto;
+		background-color:rgba(255,255,255,1);
+		display: inline-block;
 }
 
 /*======================================
