@@ -983,8 +983,8 @@ textarea:focus{
     }
     .menu-item-has-children.focus>a,
     .menu-item-has-children:hover>a {
-        color: rgba(19, 51, 166, 1);
-        background-color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        background-color:  rgba(19, 51, 166, 1);
     }
     .menu-item-has-children.focus>a:after,
     .menu-item-has-children:hover>a:after {
