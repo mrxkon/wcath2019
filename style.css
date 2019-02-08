@@ -1066,11 +1066,11 @@ textarea:focus{
 
 @media (min-width:62em) {
     .menu-item a {
-        padding: 1.5rem
+        padding: 1rem;
 	}
 	.sub-menu a {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
