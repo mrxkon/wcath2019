@@ -920,67 +920,8 @@ textarea:focus{
 
 /* 3.2 Mobile Nav Menu
 ======================================*/
-.main-small-navigation {
-	width:100%;
-	top:0;
-	position: absolute;
-	background-color: rgba(66, 159, 253, 1);
-	z-index:1;
-}
-.main-small-navigation ul li a{
-	color:rgba(255,255,255,1)!important;
-}
 
-.main-small-navigation > li > a {
-    border-bottom: 1px solid rgba(255,255,255,1);;
-    width: 100%;
-    color:rgba(255,255,255,1);;
-}
 
-.main-small-navigation .menu-primary-container > ul {
-	border-bottom:5px solid rgba(19, 51, 166, 1);
-	display:none;
-}
-
-.main-small-navigation .menu-toggle {
-	cursor:pointer;
-	font-size:1.5rem;
-	padding:1rem;
-	width:auto;
-}
-
-.menu-toggle{
-	padding: 1rem;
-	margin:0;
-	font-size: 1em;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: .05em;
-	color: rgba(255,255,255,1);
-	background-color: rgba(66, 159, 253, 1);
-	cursor: pointer;
-}
-
-.main-small-navigation ul {
-	text-align:left;
-	padding:0 1rem 1rem
-}
-
-.main-small-navigation a {
-	display:block;
-	padding:.75rem 0;
-	line-height: 1.5
-}
-
-.sub-menu a {
-	color:rgba(66, 159, 253, 1);
-}
-
-.assistive-text {
-	clip:rect(1px 1px 1px 1px);
-	position:absolute !important
-}
 
 /*/*======================================
 	04. Index 
