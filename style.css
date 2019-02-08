@@ -1052,8 +1052,8 @@ textarea:focus{
     }
     .sub-menu li.focus>a,
     .sub-menu li:hover>a {
-		color:rgba(19, 51, 166, 1);
-        background-color: rgba(255, 255, 255, 1);
+		color:rgba(255, 255, 255, 1);
+        background-color:rgba(19, 51, 166, 1);
     }
     .sub-menu a {
         padding: .625rem 1rem;
