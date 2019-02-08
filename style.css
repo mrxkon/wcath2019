@@ -884,7 +884,16 @@ textarea:focus{
         -ms-flex-align: center;
         align-items: center
 	}
-		/* Menu  Toggle*/
+		/* Menu-item */
+	.menu-item {
+        margin: 0 .0625rem;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 1.33333em;
+        text-align: center
+	}
+	
+	/* Menu  Toggle*/
 	.menu-toggle{
 		display: none;
 	}
