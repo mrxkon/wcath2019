@@ -787,8 +787,13 @@ textarea:focus{
 	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width:768px){
-
+@media (max-width:47.9375em) {
+    .main-navigation {
+		background:rgba(255, 255, 255, 1);
+    }
+    .main-navigation.toggled-on .menu {
+        display: block
+    }
 }
 
 /* Menu-toogle*/
@@ -823,11 +828,12 @@ textarea:focus{
     border-bottom-color:#333;
 }
 
+/* Menu */
 .menu{
-list-style:none;
-max-width: 73.125rem;
-margin:0 auto;
-text-align:center;
+	list-style:none;
+	max-width: 73.125rem;
+	margin:0 auto;
+	text-align:center;
 }
 
 .menu > li > a{
@@ -835,7 +841,6 @@ text-align:center;
 	height:100%;
 	align-items: center;
 }
-
 
 .menu-item {
 	position: relative;
@@ -847,9 +852,10 @@ text-align:center;
 
 .menu-item a{
 	display: block;
-text-decoration:none;
+	text-decoration:none;
 }
 
+/* Current menu */
 .current-menu-item > a{
 	color:rgba(255, 255, 255, 1);
 	background-color: rgba(14, 99, 216, 1);
@@ -863,30 +869,8 @@ text-decoration:none;
 
 
 @media screen and (min-width:768px){
-	.menu{
-		border-top: 1px solid rgba(255,255,255,.2);
-	}
-	.menu.toggled-on{
-		display: block;
-	}
-
-	.menu-item{
-		margin:0 1rem;
-		line-height:24px;
-		text-align:center
-	}
-
-/* Sub menu*/
-	.menu-item-has-children .dropdown-toggle{
-		background-color: transparent;
-	}
-
-	.menu-item-has-children .dropdown-toggle > a:after{
-		position: relative
-		bottom:2rem;
-		border:2px solid transparent;
-		left:
-	}
+	.menu-toggle{
+		display: none;
 	}
 }
 
