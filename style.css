@@ -936,7 +936,7 @@ textarea:focus{
 	.menu-item {
 		margin: 0 .0625rem;
 		display: inline-block;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 1.33333em;
 		text-align: center;
 	}
