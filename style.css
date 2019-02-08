@@ -839,6 +839,11 @@ text-decoration:none;
 
 }
 
+/* Sub Menu */
+.menu-item-has-children.dropdown-toggle{
+	display: none;
+}
+
 
 
 
