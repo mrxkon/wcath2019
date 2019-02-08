@@ -862,7 +862,7 @@ textarea:focus{
 	font-weight: 700;
 	text-align:center;
 	letter-spacing: .05rem;
-	color:#333;
+	color:rgba(19, 51, 166, 1);
 	background-color:rgba(255, 255, 255, 1);
 	cursor: pointer;
 	position: relative;
