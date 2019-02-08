@@ -804,7 +804,8 @@ textarea:focus{
     color: rgba(19, 51, 166, 1);
     border-radius: 0;
     background-color: rgba(255, 255, 255, 1);
-    cursor: pointer;
+	cursor: pointer;
+	z-index: 900;
 }
 
 .menu-toggle.focus,
@@ -870,8 +871,6 @@ textarea:focus{
     text-align: center;
     max-width: 1200px;
 	margin: 0 auto;
-	z-index: 900;
-	position: relative;
 }
 
 .menu:after,
@@ -904,10 +903,15 @@ textarea:focus{
 @media (max-width:47.9375em) {
     .menu {
         border-top: 1px solid rgba(19, 51, 166, 1);
-        display: none;
+		display: block;
+		z-index: 900;
+		position: relative;
+		-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
     }
     .toggled-on .menu {
-        display: block;
+        display: none;
     }
 }
 
