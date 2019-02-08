@@ -1006,7 +1006,10 @@ textarea:focus{
         left: -999em;
         z-index: 310;
         min-width: 16.25rem;
-        background-color:rgba(255, 255, 255, 1);
+		background-color:rgba(255, 255, 255, 1);
+		-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);	
 	}
 	
     .sub-menu .menu-item {
