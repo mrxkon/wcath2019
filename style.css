@@ -898,13 +898,13 @@ textarea:focus{
 }
 
 .menu-toggle[aria-expanded=true] {
-    color:#333;
+    color:rgba(19, 51, 166, 1);
 }
 
 .menu-toggle[aria-expanded=true]:after {
     top: -.25rem;
     border-top-color: transparent;
-    border-bottom-color:#333;
+    border-bottom-color:rgba(19, 51, 166, 1);
 }
 
 /* Sub Menu */
@@ -914,7 +914,7 @@ textarea:focus{
 
 @media (min-width:48em){
 	.main-navigation {
-		background-color: #fff;
+		background-color: rgba(255, 255, 255, 1);;
 	}
 
 	/* Menu */
@@ -976,7 +976,7 @@ textarea:focus{
 	
     .menu-item-has-children.focus>a,
     .menu-item-has-children:hover>a {
-        color:#fff;
+        color:rgba(255, 255, 255, 1);;
 		background-color: rgba(14, 99, 216, 1);
 	}
 
@@ -1004,7 +1004,7 @@ textarea:focus{
         left: -999em;
         z-index: 310;
         min-width: 16.25rem;
-        background-color:#fff;
+        background-color:rgba(255, 255, 255, 1);
 	}
 	
     .sub-menu .menu-item {
@@ -1016,7 +1016,7 @@ textarea:focus{
 	
     .sub-menu li.focus>a,
     .sub-menu li:hover>a {
-		background-color: rgba(68, 142, 246, 1);
+		background-color: rgba(14, 99, 216, 1);
 	}
 	
     .sub-menu a {
@@ -1036,7 +1036,7 @@ textarea:focus{
         display: block
     }
     .menu {
-		background-color:#fff;
+		background-color:rgba(255, 255, 255, 1);;
         border-top: 1px solid rgba(14, 99, 216, 1);
 		display: none;
 		position: relative;
