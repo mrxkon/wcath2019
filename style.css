@@ -901,11 +901,28 @@ textarea:focus{
         line-height: 1.33333em;
         text-align: center
 	}
+
+	.menu-item a{
+		padding:1rem;
+	}
 	
 	/* Menu  Toggle*/
 	.menu-toggle{
 		display: none;
 	}
+
+	/* Menu Item Children*/
+	.menu-item-has-children {
+        background-color: transparent
+    }
+    .menu-item-has-children>a:after {
+        position: relative;
+        bottom: -.125rem;
+        border: .25rem solid transparent;
+        left: .5rem;
+        border-top-color:#333;
+        content: ""
+    }
 }
 
 @media (max-width:47.9375em) {
@@ -918,6 +935,11 @@ textarea:focus{
     }
 }
 
+@media (min-width:62em) {
+    .menu-item a {
+        padding: 1.5rem
+    }
+}
 
 /* 3.2 Mobile Nav Menu
 ======================================*/
