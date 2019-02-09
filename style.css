@@ -1016,6 +1016,7 @@ textarea:focus{
 .menu-item a {
     display: block;
     color: rgba(19, 51, 166, 1);
+    padding: .5rem 1rem;
     text-decoration: none;
 }
 
