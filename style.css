@@ -1653,6 +1653,8 @@ li.share-google-plus-1 a.sd-button > span,
 li.share-twitter a.sd-button > span,
 li.share-linkedin a.sb-button > span,
 li.share-email a.sb-button > span,
+li.share-jetpack-whatsapp a.sb-button > span,
+li.share-email a.sd-button > span,
 li.share-jetpack-whatsapp a.sb-button > span
 {
 	border: none!important;
