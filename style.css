@@ -797,7 +797,7 @@ textarea:focus{
     width: 100%;
     font-size: 0;
     line-height: 24px;
-	font-weight: 700;
+	font-weight: 500;
 	z-index: 900;
     text-align: center;
     letter-spacing: .05em;
@@ -836,6 +836,10 @@ textarea:focus{
     border-top-color: rgba(19, 51, 166, 1);
     content: "";
 }
+
+.menu-toggle:hover:after{
+	border-top-color:rgba(255, 255, 255, 1);
+	}
 
 .menu-toggle[aria-expanded=true] {
     color: rgba(19, 51, 166, 1);
