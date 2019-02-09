@@ -847,10 +847,9 @@ textarea:focus{
     border-bottom-color: rgba(19, 51, 166, 1);
 }
 
-
 @media (max-width:47.9375em) {
 	.menu {
-        border-top: 1px solid rgba(19, 51, 166, 1);
+    border-top: 1px solid rgba(19, 51, 166, 1);
 		display: block;
 		-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 		-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.2);
@@ -869,8 +868,9 @@ textarea:focus{
 	
 	.sub-menu a {
         padding-left: 2.5rem
-    }
-    .sub-menu a:before {
+		}
+		
+  .sub-menu a:before {
         position: absolute;
         left: 1.5rem;
         top: 50%;
