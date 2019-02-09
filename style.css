@@ -808,6 +808,9 @@ textarea:focus{
 	-o-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	position: relative;
+	z-index: 900;
+	border-bottom:2px solid rgba(19,51,166,1);
 }
 
 .menu-toggle.focus,
