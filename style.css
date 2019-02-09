@@ -1655,7 +1655,7 @@ li.share-linkedin a.sb-button > span,
 li.share-email a.sb-button > span,
 li.share-jetpack-whatsapp a.sb-button > span,
 li.share-email a.sd-button > span,
-li.share-jetpack-whatsapp.sd-button.no-icon > span
+li.share-jetpack-whatsapp.sd-button.no-icon span
 {
 	border: none!important;
 	color: rgba(255,255,255,1)!important;
