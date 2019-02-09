@@ -676,7 +676,6 @@ a:active {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	padding:0 1rem
 }
 
 #main:after {
@@ -684,11 +683,11 @@ a:active {
 	content:'';
 	display:table
 }
+
 #primary {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	padding:0 1rem
 }
 
   /* 2.3 Elements Styling
@@ -1653,10 +1652,8 @@ li.share-google-plus-1 a.sd-button > span,
 li.share-twitter a.sd-button > span,
 li.share-linkedin a.sb-button > span,
 li.share-email a.sb-button > span,
-li.share-jetpack-whatsapp a.sb-button > span,
 li.share-email a.sd-button > span,
-li.share-jetpack-whatsapp.sd-button.no-icon span
-{
+li.share-jetpack-whatsapp a.sd-button > span {
 	border: none!important;
 	color: rgba(255,255,255,1)!important;
 	font-family: 'Roboto', sans-serif;
@@ -1859,7 +1856,7 @@ p.contact-submit input[type="submit"] {
 /* 13.1 Primary and Sidebar
 =======================================*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 62em) {
 	#primary {
 		float:left;
 		width:70%
@@ -1867,6 +1864,24 @@ p.contact-submit input[type="submit"] {
 	#secondary {
 		float:right;
 		width:30%
+	}
+}
+
+#secondary,
+#content {
+	padding: 1.5rem 1rem;
+}
+
+@media (min-width:48em) {
+	#secondary,
+	#content {
+		padding: 3rem 2rem;
+	}
+}
+
+@media (min-width:62em) {
+	#content {
+		padding: 4.5rem 3rem;
 	}
 }
 
