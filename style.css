@@ -741,6 +741,9 @@ input[type='text'],input[type='email'] {
 	text-align: left;
 	font-size:1em;
 	font-weight: 300;
+	-webkit-border-radius:3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
 input:focus,
