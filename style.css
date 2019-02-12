@@ -340,7 +340,7 @@
 	-webkit-appearance: none;
 	appearance: none;
   }
-  tix-column-quantity select{
+  .tix-column-quantity select{
 		-webkit-appearance: menulist;
 			appearance: inherit;
 	}
