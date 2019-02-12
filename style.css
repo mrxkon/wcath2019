@@ -1980,8 +1980,9 @@ td,th{
 	}
 	.tix-attendee-form input[type='text'],
 	.tix-attendee-form input[type='email'],
-	.tix-attendee-form input[type='url']{
-		width: 100%;
+	.tix-attendee-form input[type='url'],
+	.tix-order-summary .tix-column-description{
+		width: 100%!important;
 	}
 }
 
