@@ -1300,6 +1300,11 @@ a.more-link {
 /*/*======================================
 	05. Single Post
 -----------------------------------------*/
+	.entry-content ul {
+		list-style-type: square;
+		padding-left:25px;
+
+	}
 /* 5.1 Entry Title
 =========================================*/
 .byline{
