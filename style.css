@@ -1978,11 +1978,9 @@ td,th{
 	.tix-attendee-form td.tix-right	{
 		width: 100%;
 	}
-	input[type='text'],
-	input[type='email'],
-	input[type='url'],
-	.tix-right select,
-	.tix-column-quantity select{
+	.tix-attendee-form input[type='text'],
+	.tix-attendee-form input[type='email'],
+	.tix-attendee-form input[type='url']{
 		width: 100%;
 	}
 }
