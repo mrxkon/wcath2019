@@ -1989,6 +1989,9 @@ td,th{
 	}
 }
 @media screen and (max-width:768px) and (min-width:600px) {
+	.tix-order-summary .tix-column-description{
+		width: 100%!important;
+	}
 	.tix-attendee-form td.tix-left{
 		width: 40%;
 		float: left;
