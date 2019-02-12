@@ -1984,6 +1984,9 @@ td,th{
 	.tix-order-summary .tix-column-description{
 		width: 100%!important;
 	}
+	tr td:first-child {
+    font-size: 1.0125em;
+}
 }
 
 /*  13.5 Footer
