@@ -730,7 +730,10 @@ input[type='submit']:hover {
 	text-decoration:none;
 }
 
-input[type='text'],input[type='email'], input[type='url'], .tix-right select {
+input[type='text'],input[type='email'],
+input[type='url'],
+.tix-right select,
+.tix-column-quantity select {
 	background:rgba(255,255,255,0.9);
 	border:1px solid rgba(215, 215, 215, 1);
 	-moz-box-sizing:border-box;
