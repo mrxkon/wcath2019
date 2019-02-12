@@ -1972,10 +1972,17 @@ td,th{
 		text-align:center;
   }
 }
-/* Stying ticket form to small devices */
+/* Styling ticket form to small devices */
 @media screen and (max-width:600px) {
 	.tix-attendee-form td.tix-left,
 	.tix-attendee-form td.tix-right	{
+		width: 100%;
+	}
+	input[type='text'],
+	input[type='email'],
+	input[type='url'],
+	.tix-right select,
+	.tix-column-quantity select{
 		width: 100%;
 	}
 }
