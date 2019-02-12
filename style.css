@@ -983,11 +983,11 @@ textarea:focus{
 	}
 }
 
-.current-menu-item>a {
+.current-menu-item>a, .sub-menu li.current-menu-item  a {
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(19, 51, 166, 1);
 }
-
+.sub-menu
 .menu-item-has-children .dropdown-toggle {
 	display: none
 }
