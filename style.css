@@ -1795,6 +1795,10 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
     font-size: 1rem!important;
 }
 
+#tix .tix-submit .tix-checkout-button{
+	padding:1.1875rem!important;
+}
+
 /* 11.3 Budget
 ======================================*/
 .budget th {
