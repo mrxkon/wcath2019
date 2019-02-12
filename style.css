@@ -1988,7 +1988,7 @@ td,th{
     font-size: 1.0125em;
 	}
 }
-@media screen and (max-width:768px) and(min-width:60px) {
+@media screen and (max-width:768px) and (min-width:60px) {
 	.tix-attendee-form td.tix-left{
 		width: 40%;
 		float: left;
