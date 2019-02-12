@@ -1972,6 +1972,13 @@ td,th{
 		text-align:center;
   }
 }
+/* Stying ticket form to small devices */
+@media screen and (max-width:600px) {
+	.tix-attendee-form td.tix-left,
+	.tix-attendee-form td.tix-right	{
+		width: 100%;
+	}
+}
 
 /*  13.5 Footer
 ======================================*/
@@ -1989,10 +1996,10 @@ td,th{
 	  font-size: calc(1.8125rem + ((1vw - 0.3em) * 0.2083));
 	  /* Where: * 0.2083 = 100 * font_Size_Difference / viewport_Width_Difference */
 	}
-  }
+}
   /* Prevent font scaling beyond this breakpoint */
   @media (min-width: 120em) {
 	h1 {
 	  font-size: 2em;
 	}
-  }
+}
