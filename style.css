@@ -1991,9 +1991,11 @@ td,th{
 @media screen and (max-width:768px) and(min-width:60px) {
 	.tix-attendee-form td.tix-left{
 		width: 40%;
+		float: left;
 	}
 	.tix-attendee-form td.tix-right{
 		width: 60%;
+		float: left;
 	}
 }
 
