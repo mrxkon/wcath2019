@@ -1870,6 +1870,13 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 		display: block;
 }
 
+.wcorg-sponsor-level-silver img {
+	height: auto; 
+width: 360px; 
+	display: block;
+
+}
+
 /*======================================
 	12. Contact page
 ---------------------------------------*/
