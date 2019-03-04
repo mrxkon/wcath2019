@@ -41,6 +41,7 @@
 	11.2 Tickets
 	11.3 Budget
 	11.4 Organizers
+	11.5 Sponsors
 12. Contact Page
 	12.1 Textarea
 13. Responsive
@@ -1857,6 +1858,16 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 }
 .wcorg-organizer div.sharedaddy {
 	display:none
+}
+
+/* 11.4 Sponsors
+======================================*/
+
+/* Business */
+.wcorg-sponsor-level-business img {
+	height: auto; 
+	width: 300px; 
+		display: block;
 }
 
 /*======================================
