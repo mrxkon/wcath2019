@@ -1862,6 +1862,10 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 
 /* 11.4 Sponsors
 ======================================*/
+.wcorg-sponsors h3 {
+	font-size: 2em;
+	margin: 0 0 15px 0;
+}
 
 /* Business */
 .wcorg-sponsor-level-business img {
