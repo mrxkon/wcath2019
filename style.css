@@ -1874,7 +1874,12 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 	height: auto; 
 width: 360px; 
 	display: block;
+}
 
+.wcorg-sponsor-level-gold img {
+	height: auto; 
+width: 420px; 
+display: block;
 }
 
 /*======================================
