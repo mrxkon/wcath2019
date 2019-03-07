@@ -698,6 +698,7 @@ a:active {
 /*======================================*/
   /* 2.3.1 Buttons
 ========================================*/
+button, [type="button"], [type="submit"],
 a.btn.primary-btn,
 input[type='submit'] {
 	background-color:rgba(68, 142, 246, 1);
