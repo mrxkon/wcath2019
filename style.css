@@ -1882,6 +1882,7 @@ max-height: 100%!important;
 	height:auto;
 	width: 180px;
 	display: block;
+	margin-bottom:20px
 }
 
 /* Business */
@@ -1889,18 +1890,21 @@ max-height: 100%!important;
 	height: auto; 
 	width: 240px; 
 		display: block;
+		margin-bottom:20px
 }
 
 .wcorg-sponsor-level-silver img {
 	height: auto; 
 width: 360px; 
 	display: block;
+	margin-bottom:20px
 }
 
 .wcorg-sponsor-level-gold img {
 	height: auto; 
 width: 420px; 
 display: block;
+margin-bottom:20px
 }
 
 /*======================================
