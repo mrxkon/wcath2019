@@ -1,4 +1,4 @@
-
+ƒbadge
 /*/*======================================
     Table Of Contents
 /*======================================
@@ -42,6 +42,7 @@
 	11.3 Budget
 	11.4 Organizers
 	11.5 Sponsors
+	11.6 Badges
 12. Contact Page
 	12.1 Textarea
 13. Responsive
@@ -1838,6 +1839,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
     background: rgba(204, 202, 196, 1);;
 }
 
+
 /* 11.4 Organizers
 ======================================*/
 .wcorg-organizer {
@@ -1905,6 +1907,29 @@ width: 360px;
 width: 420px; 
 display: block;
 margin-bottom:20px
+}
+
+.c-media-sponsors {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+	grid-gap: 60px;
+	padding-bottom: 30px;
+}
+
+/* 11.6 Badges
+======================================*/
+
+.page-slug-wcath2019-badges .wp-block-column .wp-block-image {
+	margin-bottom: 0 !important;
+}
+
+.page-slug-wcath2019-badges .wp-block-column pre.wp-block-code {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: #fff;
+	padding: 10px;
+	font-size: 11px;
 }
 
 /*======================================
