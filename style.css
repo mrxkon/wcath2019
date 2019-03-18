@@ -1930,6 +1930,11 @@ margin-bottom:20px
 	background: #fff;
 	padding: 10px;
 	font-size: 11px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
 /*======================================
