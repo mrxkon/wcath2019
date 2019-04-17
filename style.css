@@ -1799,6 +1799,63 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
     height: 130px!important;
 }
 
+body.page-id-148 .wcpt-schedule th,
+body.page-id-148 .wcpt-schedule td {
+	border: 0;
+}
+
+body.page-id-148 .wcpt-time {
+	background: #c8defd;
+	color: #000;
+}
+
+body.page-id-148 .wcpt-schedule th {
+	background: #1333a6;
+	color: #fff;
+	font-weight: 600;
+}
+
+body.page-id-148 .contributors-day,
+body.page-id-148 .lunch-break,
+body.page-id-148 .opening-remarks,
+body.page-id-148 .registration {
+	background: #c8defd;
+	font-weight: 600;
+}
+
+body.page-id-148 .contributors-day .wcpt-time,
+body.page-id-148 .lunch-break .wcpt-time,
+body.page-id-148 .opening-remarks .wcpt-time,
+body.page-id-148 .registration .wcpt-time {
+	background: #448ef6;
+	color: #fff;
+}
+
+body.page-id-148 .contributors-day a:not( .fav-session-button ),
+body.page-id-148 .lunch-break a:not( .fav-session-button ),
+body.page-id-148 .opening-remarks a:not( .fav-session-button ),
+body.page-id-148 .registration a:not( .fav-session-button ) {
+	color: #000;
+}
+
+body.page-id-148 .wcpt-session-speakers {
+	clear: both;
+	display: block;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+body.page-id-148 .wcpt-session-speakers a {
+	color: #1333a6;
+}
+
+button, a.btn-sm {
+	width: 220px !important;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 /* 11.2 Tickets
 ======================================*/
 #tix-attendees .avatar {
