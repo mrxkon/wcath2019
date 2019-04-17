@@ -702,6 +702,15 @@ a:active {
 	box-sizing:border-box;
 }
 
+body.page-id-148 #secondary {
+	display: none;
+}
+
+body.page-id-148 #primary {
+	width: 100%;
+}
+
+
   /* 2.3 Elements Styling
 /*======================================*/
   /* 2.3.1 Buttons
