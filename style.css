@@ -1864,11 +1864,12 @@ button, a.btn-sm {
     margin-right: auto
 }
 /* cels */
-
+.wcpt-time-1330,
 .wcpt-time-0915,
 .wcpt-time-0845{
 	background: #c8defd;
 }
+.wcpt-time-1330 a,
 .wcpt-time-0915 a,
 .wcpt-time-0845 a{
 	color:#000;
