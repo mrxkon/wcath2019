@@ -1809,7 +1809,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 
 body.page-id-148 .wcpt-schedule th,
 body.page-id-148 .wcpt-schedule td {
-	border: 0;
+	border: 1px solid #c8defd;
 }
 
 body.page-id-148 .wcpt-time {
@@ -1864,6 +1864,7 @@ button, a.btn-sm {
     margin-right: auto
 }
 /* cels */
+
 .wcpt-time-0915,
 .wcpt-time-0845{
 	background: #c8defd;
