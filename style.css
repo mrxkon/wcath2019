@@ -1778,6 +1778,22 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 /* 11.1 Speakers
 ======================================== */
 
+body.single-wcb_session h2.session-speakers {
+	text-align: left;
+}
+
+body.single-wcb_session ul#session-speaker-names {
+	padding-left: 0;
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+body.single-wcb_session ul#session-speaker-names a {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
 .single-wcb_speaker .entry-meta {
 	display:none;
 }
