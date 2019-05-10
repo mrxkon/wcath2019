@@ -2090,6 +2090,11 @@ p.contact-submit input[type="submit"] {
 	}
 }
 
+#text-16 a img{
+	max-height: 200px;
+	display: flex;
+}
+
 /* 13.2 Home Title
 ======================================*/
 @media screen and (max-width: 480px){
