@@ -297,7 +297,7 @@ border: 0;
 	margin: 0;
 	outline: 0;
 	}
-	
+
 .post button, [type="button"], [type="submit"],
 a.btn.primary-btn,
 input[type='submit']{
@@ -1971,7 +1971,7 @@ button, a.btn-sm {
 /* 11.4 Sponsors
 ======================================*/
 .wcorg-sponsors img {
-max-height: 100%!important;
+max-height: 200px!important;
 }
 
 .wcorg-sponsors h3 {
@@ -1988,29 +1988,29 @@ max-height: 100%!important;
 
 /* Business */
 .wcorg-sponsor-level-small-business img{
-	height: auto; 
-	max-width: 220px; 
+	height: auto;
+	max-width: 220px;
 		display: block;
 		margin-bottom:20px
 }
 
 .wcorg-sponsor-level-business img {
-	height: auto; 
-	max-width: 240px; 
+	height: auto;
+	max-width: 240px;
 		display: block;
 		margin-bottom:20px
 }
 
 .wcorg-sponsor-level-silver img {
-	height: auto; 
-	max-width: 360px; 
+	height: auto;
+	max-width: 360px;
 	display: block;
 	margin-bottom:20px
 }
 
 .wcorg-sponsor-level-gold img {
-	height: auto; 
-	max-width: 420px; 
+	height: auto;
+	max-width: 420px;
 display: block;
 margin-bottom:20px
 }
