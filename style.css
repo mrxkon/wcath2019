@@ -2093,6 +2093,7 @@ p.contact-submit input[type="submit"] {
 #text-16 a img{
 	max-height: 200px;
 	display: flex;
+	margin: auto;
 }
 
 /* 13.2 Home Title
